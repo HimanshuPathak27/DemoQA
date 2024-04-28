@@ -1,14 +1,15 @@
 package PageObjects;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class TextBoxPage {
+import Utilities.BaseClass;
 
-	WebDriver ldriver;
-
+public class TextBoxPage extends BaseClass{
+	
 	public TextBoxPage(WebDriver rdriver) {
 		ldriver=rdriver;
 		PageFactory.initElements(ldriver, this);
@@ -62,6 +63,8 @@ public class TextBoxPage {
 	}
 	
 	public void clickSubmitButton() {
+		js = (JavascriptExecutor) ldriver;
+		js.executeScript("arguments[0].scrollIntoView()", submitButton);
 		submitButton.isEnabled();
 		submitButton.click();
 	}

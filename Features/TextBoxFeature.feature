@@ -1,10 +1,12 @@
 Feature: TextBoxes_Element
 
-	Scenario: Validate the TextBoxes component under Elements Tile
-		Given User Already launched a Browser
+Background: Steps common for all scenarios
+		Given User launched a Browser
 		When User opens url "https://demoqa.com"
 		Then User verify title of landing Page "DEMOQA"
 		When User cliks on Elements tab
+
+	Scenario: Validate the TextBoxes component under Elements Tile
 		Then User clicks on Text Box button on left rail elements
 		And User enters all the values under the textboxes
 		And User clicks on Submit button

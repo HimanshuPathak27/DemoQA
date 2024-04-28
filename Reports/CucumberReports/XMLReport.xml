@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="37.823" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="TextBoxes_Element" name="Validate the TextBoxes component under Elements Tile" time="37.584">
+<system-out><![CDATA[
+Given User launched a Browser...............................................passed
+When User opens url "https://demoqa.com"....................................passed
+Then User verify title of landing Page "DEMOQA".............................passed
+When User cliks on Elements tab.............................................passed
+Then User clicks on Text Box button on left rail elements...................passed
+And User enters all the values under the textboxes..........................passed
+And User clicks on Submit button............................................passed
+And User close the browser..................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
