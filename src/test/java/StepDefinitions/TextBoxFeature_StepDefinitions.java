@@ -9,7 +9,9 @@ public class TextBoxFeature_StepDefinitions extends BaseClass{
 	@Then("User clicks on Text Box button on left rail elements")
 	public void user_clicks_on_text_box_button_on_left_rail_elements() {
 		textBoxPage= new TextBoxPage(ldriver);
+		
 		textBoxPage.clickTextBoxButton();
+		log.info("PASSED | Text Box button is selected Successfully");
 	}
 
 	@Then("User enters all the values under the textboxes")
@@ -18,16 +20,14 @@ public class TextBoxFeature_StepDefinitions extends BaseClass{
 		textBoxPage.enterEmail("himanshu.qa@gmail.com");
 		textBoxPage.enterCurrentAddress("17/235 A-16, Hamas");
 		textBoxPage.enterPermanentAddress("A-1303, Israel");
+		
+		log.info("PASSED | Values Entered in TextBoxes Successfully");
 	}
 
 	@Then("User clicks on Submit button")
 	public void user_clicks_on_submit_button() {
 		textBoxPage.clickSubmitButton();
-	}
-
-	@Then("User close the browser")
-	public void user_close_the_browser() {
-		ldriver.quit();
+		log.info("PASSED | Submit Button is clicked Successfully");
 	}
 
 }

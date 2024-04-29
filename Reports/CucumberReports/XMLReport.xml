@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="37.823" tests="1" skipped="0" failures="0" errors="0">
-<testcase classname="TextBoxes_Element" name="Validate the TextBoxes component under Elements Tile" time="37.584">
+<testsuite name="Cucumber" time="53.832" tests="2" skipped="0" failures="0" errors="0">
+<testcase classname="CheckBoxes_Element" name="Validate the CheckBoxes component under Elements Tile" time="29.672">
+<system-out><![CDATA[
+Given User launched a Browser...............................................passed
+When User opens url "https://demoqa.com"....................................passed
+Then User verify title of landing Page "DEMOQA".............................passed
+When User cliks on Elements tab.............................................passed
+Then User clicks on Check Box button on left rail elements..................passed
+And Select Notes Checkbox under Desktop.....................................passed
+And Select React Checkbox under WorkSpace under Documents...................passed
+And Select Excel File.doc Checkbox under Downloads..........................passed
+And User verifies selected values "notes" "react" "excelFile"...............passed
+And User close the browser..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="TextBoxes_Element" name="Validate the TextBoxes component under Elements Tile" time="23.856">
 <system-out><![CDATA[
 Given User launched a Browser...............................................passed
 When User opens url "https://demoqa.com"....................................passed

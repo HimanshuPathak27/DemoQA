@@ -5,7 +5,7 @@ import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
 		
-		features = ".//Features//TextBoxFeature.feature",
+		features = {".//Features//TextBoxFeature.feature", ".//Features//CheckBoxFeature.feature"},
 		glue = "StepDefinitions",
 		dryRun = false,
 		monochrome = true,
@@ -13,7 +13,5 @@ import io.cucumber.testng.CucumberOptions;
 		)
 
 public class Runner extends AbstractTestNGCucumberTests{
-	
-	
 	
 }

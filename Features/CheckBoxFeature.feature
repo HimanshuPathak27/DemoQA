@@ -6,7 +6,7 @@ Background: Steps common for all scenarios
 		Then User verify title of landing Page "DEMOQA"
 		When User cliks on Elements tab
 
-	Scenario: Validate the TextBoxes component under Elements Tile
+	Scenario: Validate the CheckBoxes component under Elements Tile
 		Then User clicks on Check Box button on left rail elements
 		And Select Notes Checkbox under Desktop
 		And Select React Checkbox under WorkSpace under Documents

@@ -1,0 +1,38 @@
+[INFO ] 2024-04-29 07:49:37.731 [main] StepDefinitions - PASSED | Chrome Driver is Launched Successfully
+[INFO ] 2024-04-29 07:49:40.649 [main] StepDefinitions - PASSED | URL is loaded Successfully
+[INFO ] 2024-04-29 07:49:49.624 [main] StepDefinitions - PASSED | Chrome Driver is Launched Successfully
+[INFO ] 2024-04-29 07:50:11.487 [main] StepDefinitions - PASSED | URL is loaded Successfully
+[INFO ] 2024-04-29 07:50:11.505 [main] StepDefinitions - PASSED | Home Page title is validated Successfully
+[INFO ] 2024-04-29 07:50:14.185 [main] StepDefinitions - PASSED | Elements tile is selected Successfully
+[INFO ] 2024-04-29 07:50:14.700 [main] StepDefinitions - PASSED | Text Box button is selected Successfully
+[INFO ] 2024-04-29 07:51:28.299 [main] StepDefinitions - PASSED | Chrome Driver is Launched Successfully
+[INFO ] 2024-04-29 07:51:45.619 [main] StepDefinitions - PASSED | URL is loaded Successfully
+[INFO ] 2024-04-29 07:51:45.635 [main] StepDefinitions - PASSED | Home Page title is validated Successfully
+[INFO ] 2024-04-29 07:51:45.975 [main] StepDefinitions - PASSED | Elements tile is selected Successfully
+[INFO ] 2024-04-29 07:51:47.044 [main] StepDefinitions - PASSED | Checkbox button is selected Successfully
+[INFO ] 2024-04-29 07:51:57.609 [main] StepDefinitions - PASSED | Chrome Driver is Launched Successfully
+[INFO ] 2024-04-29 07:52:19.635 [main] StepDefinitions - PASSED | URL is loaded Successfully
+[INFO ] 2024-04-29 07:52:19.840 [main] StepDefinitions - PASSED | Home Page title is validated Successfully
+[INFO ] 2024-04-29 07:52:20.251 [main] StepDefinitions - PASSED | Elements tile is selected Successfully
+[INFO ] 2024-04-29 07:52:20.607 [main] StepDefinitions - PASSED | Text Box button is selected Successfully
+[INFO ] 2024-04-29 07:52:28.915 [main] StepDefinitions - PASSED | Values Entered in TextBoxes Successfully
+[INFO ] 2024-04-29 07:52:29.062 [main] StepDefinitions - PASSED | Submit Button is clicked Successfully
+[INFO ] 2024-04-29 07:52:31.527 [main] StepDefinitions - PASSED | Chrome Browser is Closed Successfully
+[INFO ] 2024-04-29 07:54:19.904 [main] StepDefinitions - PASSED | Chrome Driver is Launched Successfully
+[INFO ] 2024-04-29 07:54:39.144 [main] StepDefinitions - PASSED | URL is loaded Successfully
+[INFO ] 2024-04-29 07:54:39.159 [main] StepDefinitions - PASSED | Home Page title is validated Successfully
+[INFO ] 2024-04-29 07:54:39.478 [main] StepDefinitions - PASSED | Elements tile is selected Successfully
+[INFO ] 2024-04-29 07:54:39.640 [main] StepDefinitions - PASSED | Checkbox button is selected Successfully
+[INFO ] 2024-04-29 07:54:40.488 [main] StepDefinitions - PASSED | Notes Checkbox is selected Successfully
+[INFO ] 2024-04-29 07:54:40.913 [main] StepDefinitions - PASSED | React Checkbox is selected Successfully
+[INFO ] 2024-04-29 07:54:41.088 [main] StepDefinitions - PASSED | Excel Files Checkbox is selected Successfully
+[INFO ] 2024-04-29 07:54:41.185 [main] StepDefinitions - PASSED | Selected checkboxes are validated Successfully
+[INFO ] 2024-04-29 07:54:41.633 [main] StepDefinitions - PASSED | Chrome Browser is Closed Successfully
+[INFO ] 2024-04-29 07:54:43.343 [main] StepDefinitions - PASSED | Chrome Driver is Launched Successfully
+[INFO ] 2024-04-29 07:55:03.022 [main] StepDefinitions - PASSED | URL is loaded Successfully
+[INFO ] 2024-04-29 07:55:03.023 [main] StepDefinitions - PASSED | Home Page title is validated Successfully
+[INFO ] 2024-04-29 07:55:03.235 [main] StepDefinitions - PASSED | Elements tile is selected Successfully
+[INFO ] 2024-04-29 07:55:03.399 [main] StepDefinitions - PASSED | Text Box button is selected Successfully
+[INFO ] 2024-04-29 07:55:04.947 [main] StepDefinitions - PASSED | Values Entered in TextBoxes Successfully
+[INFO ] 2024-04-29 07:55:05.075 [main] StepDefinitions - PASSED | Submit Button is clicked Successfully
+[INFO ] 2024-04-29 07:55:05.520 [main] StepDefinitions - PASSED | Chrome Browser is Closed Successfully
