@@ -6,6 +6,7 @@ import org.openqa.selenium.WebDriver;
 
 import PageObjects.CheckBoxPage;
 import PageObjects.HomePage;
+import PageObjects.RadioButtonPage;
 import PageObjects.TextBoxPage;
 
 public class BaseClass {
@@ -17,4 +18,5 @@ public class BaseClass {
 	public HomePage homePage;
 	public TextBoxPage textBoxPage;
 	public CheckBoxPage checkBoxPage;
+	public RadioButtonPage radioButtonPage;
 }

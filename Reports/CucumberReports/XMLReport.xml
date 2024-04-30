@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="53.832" tests="2" skipped="0" failures="0" errors="0">
-<testcase classname="CheckBoxes_Element" name="Validate the CheckBoxes component under Elements Tile" time="29.672">
+<testsuite name="Cucumber" time="222.232" tests="3" skipped="0" failures="0" errors="0">
+<testcase classname="CheckBoxes_Element" name="Validate the CheckBoxes component under Elements Tile" time="78.883">
 <system-out><![CDATA[
 Given User launched a Browser...............................................passed
 When User opens url "https://demoqa.com"....................................passed
@@ -14,7 +14,20 @@ And User verifies selected values "notes" "react" "excelFile"...............pass
 And User close the browser..................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="TextBoxes_Element" name="Validate the TextBoxes component under Elements Tile" time="23.856">
+<testcase classname="RadioButtons_Element" name="Validate the Radio buttons component under Elements Tile" time="71.285">
+<system-out><![CDATA[
+Given User launched a Browser...............................................passed
+When User opens url "https://demoqa.com"....................................passed
+Then User verify title of landing Page "DEMOQA".............................passed
+When User cliks on Elements tab.............................................passed
+Then User clicks on Radio button on left rail elements......................passed
+And Select Yes radio button and verify the Selected value "Yes".............passed
+And Select Impressive radio button and verify the Selected value "Impressive".passed
+And User verifies the No radio button to be disabled........................passed
+And User close the browser..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="TextBoxes_Element" name="Validate the TextBoxes component under Elements Tile" time="71.783">
 <system-out><![CDATA[
 Given User launched a Browser...............................................passed
 When User opens url "https://demoqa.com"....................................passed
