@@ -4,8 +4,8 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
-		
-		features = {".//Features//TextBoxFeature.feature", ".//Features//CheckBoxFeature.feature", ".//Features//RadioButtonFeature.feature"},
+
+		features = {".//Features//TextBoxFeature.feature", ".//Features//CheckBoxFeature.feature", ".//Features//RadioButtonFeature.feature", ".//Features//WebTablesFeature.feature"},
 		glue = "StepDefinitions",
 		dryRun = false,
 		monochrome = true,

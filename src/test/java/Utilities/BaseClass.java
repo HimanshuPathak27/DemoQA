@@ -8,6 +8,7 @@ import PageObjects.CheckBoxPage;
 import PageObjects.HomePage;
 import PageObjects.RadioButtonPage;
 import PageObjects.TextBoxPage;
+import PageObjects.WebTablePage;
 
 public class BaseClass {
 
@@ -19,4 +20,5 @@ public class BaseClass {
 	public TextBoxPage textBoxPage;
 	public CheckBoxPage checkBoxPage;
 	public RadioButtonPage radioButtonPage;
+	public WebTablePage webTablePage;
 }
