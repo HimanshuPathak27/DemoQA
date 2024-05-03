@@ -5,7 +5,11 @@ import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
 
-		features = {".//Features//TextBoxFeature.feature", ".//Features//CheckBoxFeature.feature", ".//Features//RadioButtonFeature.feature", ".//Features//WebTablesFeature.feature"},
+		features = {".//Features//TextBoxFeature.feature", 
+				".//Features//CheckBoxFeature.feature", 
+				".//Features//RadioButtonFeature.feature", 
+				".//Features//WebTablesFeature.feature", 
+				".//Features//ButtonsFeature.feature"},
 		glue = "StepDefinitions",
 		dryRun = false,
 		monochrome = true,

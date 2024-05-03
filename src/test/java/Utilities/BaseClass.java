@@ -3,7 +3,9 @@ package Utilities;
 import org.apache.logging.log4j.*;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.interactions.Actions;
 
+import PageObjects.ButtonsPage;
 import PageObjects.CheckBoxPage;
 import PageObjects.HomePage;
 import PageObjects.RadioButtonPage;
@@ -14,6 +16,7 @@ public class BaseClass {
 
 	public static WebDriver ldriver;
 	public JavascriptExecutor js;
+	public Actions act;
 	public static Logger log;
 	
 	public HomePage homePage;
@@ -21,4 +24,5 @@ public class BaseClass {
 	public CheckBoxPage checkBoxPage;
 	public RadioButtonPage radioButtonPage;
 	public WebTablePage webTablePage;
+	public ButtonsPage buttonsPage;
 }

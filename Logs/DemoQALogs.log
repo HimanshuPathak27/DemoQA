@@ -1,52 +1,94 @@
-[INFO ] 2024-05-01 08:32:03.325 [main] DemoQALogs - PASSED | Chrome Driver is Launched Successfully
-[INFO ] 2024-05-01 08:32:29.335 [main] DemoQALogs - PASSED | URL is loaded Successfully
-[INFO ] 2024-05-01 08:32:29.366 [main] DemoQALogs - PASSED | Home Page title is validated Successfully
-[INFO ] 2024-05-01 08:32:30.132 [main] DemoQALogs - PASSED | Elements tile is selected Successfully
-[INFO ] 2024-05-01 08:32:31.979 [main] DemoQALogs - PASSED | Checkbox button is selected Successfully
-[INFO ] 2024-05-01 08:32:34.302 [main] DemoQALogs - PASSED | Notes Checkbox is selected Successfully
-[INFO ] 2024-05-01 08:32:34.541 [main] DemoQALogs - PASSED | React Checkbox is selected Successfully
-[INFO ] 2024-05-01 08:32:34.732 [main] DemoQALogs - PASSED | Excel Files Checkbox is selected Successfully
-[INFO ] 2024-05-01 08:32:34.816 [main] DemoQALogs - PASSED | Selected checkboxes are validated Successfully
-[INFO ] 2024-05-01 08:32:42.502 [main] DemoQALogs - PASSED | Chrome Browser is Closed Successfully
-[INFO ] 2024-05-01 08:32:56.198 [main] DemoQALogs - PASSED | Chrome Driver is Launched Successfully
-[INFO ] 2024-05-01 08:33:19.829 [main] DemoQALogs - PASSED | URL is loaded Successfully
-[INFO ] 2024-05-01 08:33:19.851 [main] DemoQALogs - PASSED | Home Page title is validated Successfully
-[INFO ] 2024-05-01 08:33:20.065 [main] DemoQALogs - PASSED | Elements tile is selected Successfully
-[INFO ] 2024-05-01 08:33:20.732 [main] DemoQALogs - PASSED | Radio Button button is selected Successfully
-[INFO ] 2024-05-01 08:33:22.902 [main] DemoQALogs - PASSED | YES Radio Button button is validated Successfully
-[INFO ] 2024-05-01 08:33:23.397 [main] DemoQALogs - PASSED | IMPRESSIVE Radio Button button is validated Successfully
-[INFO ] 2024-05-01 08:33:23.431 [main] DemoQALogs - PASSED | NO Radio Button button is Disabled
-[INFO ] 2024-05-01 08:33:24.343 [main] DemoQALogs - PASSED | Chrome Browser is Closed Successfully
-[INFO ] 2024-05-01 08:33:29.599 [main] DemoQALogs - PASSED | Chrome Driver is Launched Successfully
-[INFO ] 2024-05-01 08:33:51.963 [main] DemoQALogs - PASSED | URL is loaded Successfully
-[INFO ] 2024-05-01 08:33:51.979 [main] DemoQALogs - PASSED | Home Page title is validated Successfully
-[INFO ] 2024-05-01 08:33:52.175 [main] DemoQALogs - PASSED | Elements tile is selected Successfully
-[INFO ] 2024-05-01 08:33:52.486 [main] DemoQALogs - PASSED | Text Box button is selected Successfully
-[INFO ] 2024-05-01 08:33:54.837 [main] DemoQALogs - PASSED | Values Entered in TextBoxes Successfully
-[INFO ] 2024-05-01 08:33:56.522 [main] DemoQALogs - PASSED | Submit Button is clicked Successfully
-[INFO ] 2024-05-01 08:33:56.853 [main] DemoQALogs - PASSED | Chrome Browser is Closed Successfully
-[INFO ] 2024-05-01 08:34:02.479 [main] DemoQALogs - PASSED | Chrome Driver is Launched Successfully
-[INFO ] 2024-05-01 08:34:26.681 [main] DemoQALogs - PASSED | URL is loaded Successfully
-[INFO ] 2024-05-01 08:34:26.692 [main] DemoQALogs - PASSED | Home Page title is validated Successfully
-[INFO ] 2024-05-01 08:34:26.893 [main] DemoQALogs - PASSED | Elements tile is selected Successfully
-[INFO ] 2024-05-01 08:34:27.091 [main] DemoQALogs - PASSED | Webtable Button is successfully Validated
-[INFO ] 2024-05-01 08:34:28.041 [main] DemoQALogs - PASSED | First Name header validated
-[INFO ] 2024-05-01 08:34:28.041 [main] DemoQALogs - PASSED | Last Name header validated
-[INFO ] 2024-05-01 08:34:28.041 [main] DemoQALogs - PASSED | Age header validated
-[INFO ] 2024-05-01 08:34:28.041 [main] DemoQALogs - PASSED | Email header validated
-[INFO ] 2024-05-01 08:34:28.041 [main] DemoQALogs - PASSED | Salary header validated
-[INFO ] 2024-05-01 08:34:28.041 [main] DemoQALogs - PASSED | Department header validated
-[INFO ] 2024-05-01 08:34:28.041 [main] DemoQALogs - PASSED | Action header validated
-[INFO ] 2024-05-01 08:34:28.041 [main] DemoQALogs - PASSED | Headers of all the Column of Webtable are Validated
-[INFO ] 2024-05-01 08:34:30.112 [main] DemoQALogs - PASSED | Row-2 is Updated in the table
-[INFO ] 2024-05-01 08:34:30.709 [main] DemoQALogs - PASSED | First Name validated
-[INFO ] 2024-05-01 08:34:30.709 [main] DemoQALogs - PASSED | Last Name validated
-[INFO ] 2024-05-01 08:34:30.709 [main] DemoQALogs - PASSED | Age validated
-[INFO ] 2024-05-01 08:34:30.709 [main] DemoQALogs - PASSED | Email validated
-[INFO ] 2024-05-01 08:34:30.709 [main] DemoQALogs - PASSED | Salary validated
-[INFO ] 2024-05-01 08:34:30.709 [main] DemoQALogs - PASSED | Department validated
-[INFO ] 2024-05-01 08:34:30.709 [main] DemoQALogs - PASSED | Updated data of Row-2 of Webtable is Validated
-[INFO ] 2024-05-01 08:34:30.805 [main] DemoQALogs - PASSED | Row2 Record is deleted
-[INFO ] 2024-05-01 08:34:31.973 [main] DemoQALogs - PASSED | New Record is added in the table
-[INFO ] 2024-05-01 08:34:32.728 [main] DemoQALogs - PASSED | Newly Added Data on Webtable is Validated
-[INFO ] 2024-05-01 08:34:35.979 [main] DemoQALogs - PASSED | Chrome Browser is Closed Successfully
+[INFO ] 2024-05-01 12:46:19.766 [main] DemoQALogs - PASSED | Chrome Driver is Launched Successfully
+[INFO ] 2024-05-01 12:46:39.507 [main] DemoQALogs - PASSED | URL is loaded Successfully
+[INFO ] 2024-05-01 12:46:39.622 [main] DemoQALogs - PASSED | Home Page title is validated Successfully
+[INFO ] 2024-05-01 12:46:42.370 [main] DemoQALogs - PASSED | Elements tile is selected Successfully
+[INFO ] 2024-05-01 12:46:42.626 [main] DemoQALogs - PASSED | Buttons button is clicked Successfully
+[INFO ] 2024-05-01 12:47:04.880 [main] DemoQALogs - PASSED | Chrome Driver is Launched Successfully
+[INFO ] 2024-05-01 12:48:27.826 [main] DemoQALogs - PASSED | URL is loaded Successfully
+[INFO ] 2024-05-01 12:48:27.841 [main] DemoQALogs - PASSED | Home Page title is validated Successfully
+[INFO ] 2024-05-01 12:48:28.293 [main] DemoQALogs - PASSED | Elements tile is selected Successfully
+[INFO ] 2024-05-01 12:48:28.551 [main] DemoQALogs - PASSED | Checkbox button is selected Successfully
+[INFO ] 2024-05-01 12:48:33.820 [main] DemoQALogs - PASSED | Notes Checkbox is selected Successfully
+[INFO ] 2024-05-01 12:48:34.082 [main] DemoQALogs - PASSED | React Checkbox is selected Successfully
+[INFO ] 2024-05-01 12:48:34.242 [main] DemoQALogs - PASSED | Excel Files Checkbox is selected Successfully
+[INFO ] 2024-05-01 12:48:34.382 [main] DemoQALogs - PASSED | Selected checkboxes are validated Successfully
+[INFO ] 2024-05-01 12:48:38.342 [main] DemoQALogs - PASSED | Chrome Browser is Closed Successfully
+[INFO ] 2024-05-01 12:48:50.777 [main] DemoQALogs - PASSED | Chrome Driver is Launched Successfully
+[INFO ] 2024-05-01 12:49:46.535 [main] DemoQALogs - PASSED | URL is loaded Successfully
+[INFO ] 2024-05-01 12:49:46.546 [main] DemoQALogs - PASSED | Home Page title is validated Successfully
+[INFO ] 2024-05-01 12:49:46.929 [main] DemoQALogs - PASSED | Elements tile is selected Successfully
+[INFO ] 2024-05-01 12:49:47.237 [main] DemoQALogs - PASSED | Radio Button button is selected Successfully
+[INFO ] 2024-05-01 12:49:49.405 [main] DemoQALogs - PASSED | YES Radio Button button is validated Successfully
+[INFO ] 2024-05-01 12:49:49.515 [main] DemoQALogs - PASSED | IMPRESSIVE Radio Button button is validated Successfully
+[INFO ] 2024-05-01 12:49:49.551 [main] DemoQALogs - PASSED | NO Radio Button button is Disabled
+[INFO ] 2024-05-01 12:49:54.353 [main] DemoQALogs - PASSED | Chrome Browser is Closed Successfully
+[INFO ] 2024-05-01 12:50:09.480 [main] DemoQALogs - PASSED | Chrome Driver is Launched Successfully
+[INFO ] 2024-05-01 12:50:31.944 [main] DemoQALogs - PASSED | URL is loaded Successfully
+[INFO ] 2024-05-01 12:50:31.956 [main] DemoQALogs - PASSED | Home Page title is validated Successfully
+[INFO ] 2024-05-01 12:50:32.398 [main] DemoQALogs - PASSED | Elements tile is selected Successfully
+[INFO ] 2024-05-01 12:50:32.730 [main] DemoQALogs - PASSED | Text Box button is selected Successfully
+[INFO ] 2024-05-01 12:51:06.998 [main] DemoQALogs - PASSED | Chrome Driver is Launched Successfully
+[INFO ] 2024-05-01 12:51:29.042 [main] DemoQALogs - PASSED | URL is loaded Successfully
+[INFO ] 2024-05-01 12:51:29.059 [main] DemoQALogs - PASSED | Home Page title is validated Successfully
+[INFO ] 2024-05-01 12:51:29.773 [main] DemoQALogs - PASSED | Elements tile is selected Successfully
+[INFO ] 2024-05-01 12:53:37.933 [main] DemoQALogs - PASSED | Chrome Driver is Launched Successfully
+[INFO ] 2024-05-01 12:53:57.452 [main] DemoQALogs - PASSED | URL is loaded Successfully
+[INFO ] 2024-05-01 12:53:57.468 [main] DemoQALogs - PASSED | Home Page title is validated Successfully
+[INFO ] 2024-05-01 12:53:57.670 [main] DemoQALogs - PASSED | Elements tile is selected Successfully
+[INFO ] 2024-05-01 12:53:57.991 [main] DemoQALogs - PASSED | Buttons button is clicked Successfully
+[INFO ] 2024-05-01 12:53:58.276 [main] DemoQALogs - PASSED | Output of double click action is Matched
+[INFO ] 2024-05-01 12:53:59.157 [main] DemoQALogs - PASSED | Output of right click action is Matched
+[INFO ] 2024-05-01 12:53:59.318 [main] DemoQALogs - PASSED | Output of click action is Matched
+[INFO ] 2024-05-01 12:54:00.944 [main] DemoQALogs - PASSED | Chrome Browser is Closed Successfully
+[INFO ] 2024-05-01 12:54:02.436 [main] DemoQALogs - PASSED | Chrome Driver is Launched Successfully
+[INFO ] 2024-05-01 12:54:25.007 [main] DemoQALogs - PASSED | URL is loaded Successfully
+[INFO ] 2024-05-01 12:54:25.020 [main] DemoQALogs - PASSED | Home Page title is validated Successfully
+[INFO ] 2024-05-01 12:54:25.401 [main] DemoQALogs - PASSED | Elements tile is selected Successfully
+[INFO ] 2024-05-01 12:54:25.556 [main] DemoQALogs - PASSED | Checkbox button is selected Successfully
+[INFO ] 2024-05-01 12:54:25.980 [main] DemoQALogs - PASSED | Notes Checkbox is selected Successfully
+[INFO ] 2024-05-01 12:54:27.088 [main] DemoQALogs - PASSED | React Checkbox is selected Successfully
+[INFO ] 2024-05-01 12:54:27.286 [main] DemoQALogs - PASSED | Excel Files Checkbox is selected Successfully
+[INFO ] 2024-05-01 12:54:27.364 [main] DemoQALogs - PASSED | Selected checkboxes are validated Successfully
+[INFO ] 2024-05-01 12:54:29.027 [main] DemoQALogs - PASSED | Chrome Browser is Closed Successfully
+[INFO ] 2024-05-01 12:54:31.182 [main] DemoQALogs - PASSED | Chrome Driver is Launched Successfully
+[INFO ] 2024-05-01 12:55:29.377 [main] DemoQALogs - PASSED | URL is loaded Successfully
+[INFO ] 2024-05-01 12:55:29.388 [main] DemoQALogs - PASSED | Home Page title is validated Successfully
+[INFO ] 2024-05-01 12:55:29.910 [main] DemoQALogs - PASSED | Elements tile is selected Successfully
+[INFO ] 2024-05-01 12:55:30.242 [main] DemoQALogs - PASSED | Radio Button button is selected Successfully
+[INFO ] 2024-05-01 12:55:30.396 [main] DemoQALogs - PASSED | YES Radio Button button is validated Successfully
+[INFO ] 2024-05-01 12:55:30.602 [main] DemoQALogs - PASSED | IMPRESSIVE Radio Button button is validated Successfully
+[INFO ] 2024-05-01 12:55:30.632 [main] DemoQALogs - PASSED | NO Radio Button button is Disabled
+[INFO ] 2024-05-01 12:55:32.268 [main] DemoQALogs - PASSED | Chrome Browser is Closed Successfully
+[INFO ] 2024-05-01 12:55:35.419 [main] DemoQALogs - PASSED | Chrome Driver is Launched Successfully
+[INFO ] 2024-05-01 12:55:57.512 [main] DemoQALogs - PASSED | URL is loaded Successfully
+[INFO ] 2024-05-01 12:55:57.529 [main] DemoQALogs - PASSED | Home Page title is validated Successfully
+[INFO ] 2024-05-01 12:55:57.742 [main] DemoQALogs - PASSED | Elements tile is selected Successfully
+[INFO ] 2024-05-01 12:55:57.872 [main] DemoQALogs - PASSED | Text Box button is selected Successfully
+[INFO ] 2024-05-01 12:55:59.294 [main] DemoQALogs - PASSED | Values Entered in TextBoxes Successfully
+[INFO ] 2024-05-01 12:55:59.420 [main] DemoQALogs - PASSED | Submit Button is clicked Successfully
+[INFO ] 2024-05-01 12:56:00.002 [main] DemoQALogs - PASSED | Chrome Browser is Closed Successfully
+[INFO ] 2024-05-01 12:56:02.840 [main] DemoQALogs - PASSED | Chrome Driver is Launched Successfully
+[INFO ] 2024-05-01 12:56:26.712 [main] DemoQALogs - PASSED | URL is loaded Successfully
+[INFO ] 2024-05-01 12:56:26.729 [main] DemoQALogs - PASSED | Home Page title is validated Successfully
+[INFO ] 2024-05-01 12:56:26.982 [main] DemoQALogs - PASSED | Elements tile is selected Successfully
+[INFO ] 2024-05-01 12:56:27.286 [main] DemoQALogs - PASSED | Webtable Button is successfully Validated
+[INFO ] 2024-05-01 12:56:28.493 [main] DemoQALogs - PASSED | First Name header validated
+[INFO ] 2024-05-01 12:56:28.493 [main] DemoQALogs - PASSED | Last Name header validated
+[INFO ] 2024-05-01 12:56:28.493 [main] DemoQALogs - PASSED | Age header validated
+[INFO ] 2024-05-01 12:56:28.493 [main] DemoQALogs - PASSED | Email header validated
+[INFO ] 2024-05-01 12:56:28.493 [main] DemoQALogs - PASSED | Salary header validated
+[INFO ] 2024-05-01 12:56:28.493 [main] DemoQALogs - PASSED | Department header validated
+[INFO ] 2024-05-01 12:56:28.493 [main] DemoQALogs - PASSED | Action header validated
+[INFO ] 2024-05-01 12:56:28.493 [main] DemoQALogs - PASSED | Headers of all the Column of Webtable are Validated
+[INFO ] 2024-05-01 12:56:31.402 [main] DemoQALogs - PASSED | Row-2 is Updated in the table
+[INFO ] 2024-05-01 12:56:31.698 [main] DemoQALogs - PASSED | First Name validated
+[INFO ] 2024-05-01 12:56:31.698 [main] DemoQALogs - PASSED | Last Name validated
+[INFO ] 2024-05-01 12:56:31.698 [main] DemoQALogs - PASSED | Age validated
+[INFO ] 2024-05-01 12:56:31.698 [main] DemoQALogs - PASSED | Email validated
+[INFO ] 2024-05-01 12:56:31.698 [main] DemoQALogs - PASSED | Salary validated
+[INFO ] 2024-05-01 12:56:31.698 [main] DemoQALogs - PASSED | Department validated
+[INFO ] 2024-05-01 12:56:31.698 [main] DemoQALogs - PASSED | Updated data of Row-2 of Webtable is Validated
+[INFO ] 2024-05-01 12:56:31.791 [main] DemoQALogs - PASSED | Row2 Record is deleted
+[INFO ] 2024-05-01 12:56:34.621 [main] DemoQALogs - PASSED | New Record is added in the table
+[INFO ] 2024-05-01 12:56:39.149 [main] DemoQALogs - PASSED | Newly Added Data on Webtable is Validated
+[INFO ] 2024-05-01 12:56:39.649 [main] DemoQALogs - PASSED | Chrome Browser is Closed Successfully
