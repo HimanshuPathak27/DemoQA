@@ -14,11 +14,15 @@ import Utilities.BaseClass;
 
 public class WebTablePage extends BaseClass {
 
+	// Constructor to instantiate Webdriver instance
 	public WebTablePage(WebDriver rdriver){
 		ldriver=rdriver;
 		PageFactory.initElements(ldriver, this);
+
+		js = (JavascriptExecutor) ldriver;
 	}
 
+	// Locating Elements
 	@FindBy(xpath="//div[@class='rt-tr']/div")
 	List<WebElement> tableHeaders;
 
@@ -27,8 +31,6 @@ public class WebTablePage extends BaseClass {
 
 	@FindBy(xpath="//div[@class='rt-tbody']/div[1]/div/div")
 	List<WebElement> tableColumns;
-
-
 
 	@FindBy(xpath="//span[text()='Web Tables']/..")
 	WebElement webTableButton;
@@ -43,7 +45,7 @@ public class WebTablePage extends BaseClass {
 	WebElement lastNameField;
 
 	@FindBy(xpath="//input[@id='age']")
-	WebElement agetField;
+	WebElement ageField;
 
 	@FindBy(xpath="//input[@id='userEmail']")
 	WebElement emailField;
@@ -56,25 +58,41 @@ public class WebTablePage extends BaseClass {
 
 	@FindBy(xpath="//button[@id='submit']")
 	WebElement submitButton;
-	
+
 	@FindBy(xpath="//span[@id='delete-record-2']")
 	WebElement deleteRecord2Button;
-	
+
 	@FindBy(xpath="//button[@id='addNewRecordButton']")
 	WebElement addNewButton;
-	
+
 	@FindBy(xpath="//input[@id='searchBox']")
 	WebElement searchBox;
-	
+
 	@FindBy(xpath="//span[@id='basic-addon2']")
 	WebElement searchButton;
-	
 
+	// Click on Web Tables button on left rail
 	public void clickWebTableButton() {
-		webTableButton.isEnabled();
-		webTableButton.click();
+
+		try {
+			if(webTableButton.isDisplayed() && webTableButton.isEnabled()) {
+				try {
+					webTableButton.click();
+				}
+				catch (Exception e) {
+					log.info("FAILED | Web Tables button click is intercepted");
+					log.error("ERROR | " + e.getMessage() + " | " + e);
+				}
+			}
+		}
+		catch (Exception e) {
+			log.info("FAILED | Web Tables button is not Displayed or Enabled");
+			log.error("ERROR | " + e.getMessage() + " | " + e);
+		}
+
 	}
 
+	//Handling Web Table
 	public ArrayList<String> verifyColumnHeaders() {
 
 		ArrayList<String> columnHeaders = new ArrayList<String>();
@@ -89,36 +107,113 @@ public class WebTablePage extends BaseClass {
 		return columnHeaders;
 	}
 
+	// Update Record-2 on the webtable
 	public void UpdateRecord2(String firstName, String lastName, String email, String age, String salary, String dept) {
 
-		js = (JavascriptExecutor) ldriver;
 		js.executeScript("arguments[0].scrollIntoView()", editRecord2Button);
 
-		editRecord2Button.isEnabled();
-		editRecord2Button.click();
+		try {
+			if(editRecord2Button.isDisplayed() && editRecord2Button.isEnabled()) {
+				try {
+					editRecord2Button.click();
+				}
+				catch (Exception e) {
+					log.info("FAILED | Edit button on record-2, click is intercepted");
+					log.error("ERROR | " + e.getMessage() + " | " + e);
+				}
+			}
+		}
+		catch (Exception e) {
+			log.info("FAILED | Edit button on record-2 is not Displayed or Enabled");
+			log.error("ERROR | " + e.getMessage() + " | " + e);
+		}
 
-		firstNameField.clear();
-		firstNameField.sendKeys(firstName);
+		try {
+			if(firstNameField.isDisplayed() && firstNameField.isEnabled()) {
+				firstNameField.clear();
+				firstNameField.sendKeys(firstName);
+			}
+		} 
+		catch (Exception  e) {
+			log.info("FAILED | First Name text box is not Displayed or Enabled");
+			log.error("ERROR | " + e.getMessage() + " | " + e);
+		}
 
-		lastNameField.clear();
-		lastNameField.sendKeys(lastName);
+		try {
+			if(lastNameField.isDisplayed() && lastNameField.isEnabled()) {
+				lastNameField.clear();
+				lastNameField.sendKeys(lastName);
+			}
+		} 
+		catch (Exception  e) {
+			log.info("FAILED | Last Name text box is not Displayed or Enabled");
+			log.error("ERROR | " + e.getMessage() + " | " + e);
+		}
 
-		emailField.clear();
-		emailField.sendKeys(email);
 
-		agetField.clear();
-		agetField.sendKeys(age);
+		try {
+			if(emailField.isDisplayed() && emailField.isEnabled()) {
+				emailField.clear();
+				emailField.sendKeys(email);
+			}
+		} 
+		catch (Exception  e) {
+			log.info("FAILED | Email text box is not Displayed or Enabled");
+			log.error("ERROR | " + e.getMessage() + " | " + e);
+		}
 
-		salaryField.clear();
-		salaryField.sendKeys(salary);
+		try {
+			if(ageField.isDisplayed() && ageField.isEnabled()) {
+				ageField.clear();
+				ageField.sendKeys(age);
+			}
+		} 
+		catch (Exception  e) {
+			log.info("FAILED | Age text box is not Displayed or Enabled");
+			log.error("ERROR | " + e.getMessage() + " | " + e);
+		}
 
-		departmentField.clear();
-		departmentField.sendKeys(dept);
+		try {
+			if(salaryField.isDisplayed() && salaryField.isEnabled()) {
+				salaryField.clear();
+				salaryField.sendKeys(salary);
+			}
+		} 
+		catch (Exception  e) {
+			log.info("FAILED | Salary text box is not Displayed or Enabled");
+			log.error("ERROR | " + e.getMessage() + " | " + e);
+		}
 
-		submitButton.isEnabled();
-		submitButton.click();
+		try {
+			if(departmentField.isDisplayed() && departmentField.isEnabled()) {
+				departmentField.clear();
+				departmentField.sendKeys(dept);
+			}
+		} 
+		catch (Exception  e) {
+			log.info("FAILED | Department text box is not Displayed or Enabled");
+			log.error("ERROR | " + e.getMessage() + " | " + e);
+		}
+
+		try {
+			if(submitButton.isDisplayed() && submitButton.isEnabled()) {
+				try {
+					submitButton.click();
+				} 
+				catch (Exception e) {
+					log.info("FAILED | Submit button click is intercepted");
+					log.error("ERROR | " + e.getMessage() + " | " + e);
+				}
+			}
+		}
+		catch (Exception e) {
+			log.info("FAILED | Submit button is not Displayed or Enabled");
+			log.error("ERROR | " + e.getMessage() + " | " + e);
+		}
+
 	}
 
+	// Verify the updated records of Row-2
 	public ArrayList<String> verifyUpdatedRow2Record() {
 
 		ArrayList<String> row2Data = new ArrayList<String>();
@@ -127,60 +222,188 @@ public class WebTablePage extends BaseClass {
 			String row2ColumnsXpath = "//div[@class='rt-tbody']/div[2]/div/div[" + c + "]";
 			WebElement row2Elements = ldriver.findElement(By.xpath(row2ColumnsXpath));
 
-			row2Data.add(row2Elements.getText());
+			try {
+				row2Data.add(row2Elements.getText());
+			}
+			catch (Exception e) {
+				log.info("FAILED | Unable to fetch updated data from row-2");
+				log.error("ERROR | " + e.getMessage() + " | " + e);
+			}
 		}
 
 		return row2Data;
 	}
-	
+
+	//Delete Record in row-2
 	public void deleteRecord2() {
-		deleteRecord2Button.isEnabled();
-		deleteRecord2Button.click();
+
+		try {
+			if(deleteRecord2Button.isDisplayed() && deleteRecord2Button.isEnabled()) {
+				try {
+					deleteRecord2Button.click();
+				} 
+				catch (Exception e) {
+					log.info("FAILED | Delete Record2 button click is intercepted");
+					log.error("ERROR | " + e.getMessage() + " | " + e);
+				}
+			}
+		}
+		catch (Exception e) {
+			log.info("FAILED | Delete Record2 button is not Displayed or Enabled");
+			log.error("ERROR | " + e.getMessage() + " | " + e);
+		}
+
 	}
-	
+
+	// Add a new Record in webtable
 	public void addNewRecord(String firstName, String lastName, String email, String age, String salary, String dept) {
-		addNewButton.isEnabled();
-		addNewButton.click();
 
-		firstNameField.clear();
-		firstNameField.sendKeys(firstName);
+		try {
+			if(addNewButton.isDisplayed() && addNewButton.isEnabled()) {
+				try {
+					addNewButton.click();
+				} 
+				catch (Exception e) {
+					log.info("FAILED | Add New Record button click is intercepted");
+					log.error("ERROR | " + e.getMessage() + " | " + e);
+				}
+			}
+		}
+		catch (Exception e) {
+			log.info("FAILED | Add New Record button is not Displayed or Enabled");
+			log.error("ERROR | " + e.getMessage() + " | " + e);
+		}
 
-		lastNameField.clear();
-		lastNameField.sendKeys(lastName);
+		try {
+			if(firstNameField.isDisplayed() && firstNameField.isEnabled()) {
+				firstNameField.clear();
+				firstNameField.sendKeys(firstName);
+			}
+		} 
+		catch (Exception  e) {
+			log.info("FAILED | First Name text box is not Displayed or Enabled");
+			log.error("ERROR | " + e.getMessage() + " | " + e);
+		}
 
-		emailField.clear();
-		emailField.sendKeys(email);
+		try {
+			if(lastNameField.isDisplayed() && lastNameField.isEnabled()) {
+				lastNameField.clear();
+				lastNameField.sendKeys(lastName);
+			}
+		} 
+		catch (Exception  e) {
+			log.info("FAILED | Last Name text box is not Displayed or Enabled");
+			log.error("ERROR | " + e.getMessage() + " | " + e);
+		}
 
-		agetField.clear();
-		agetField.sendKeys(age);
 
-		salaryField.clear();
-		salaryField.sendKeys(salary);
+		try {
+			if(emailField.isDisplayed() && emailField.isEnabled()) {
+				emailField.clear();
+				emailField.sendKeys(email);
+			}
+		} 
+		catch (Exception  e) {
+			log.info("FAILED | Email text box is not Displayed or Enabled");
+			log.error("ERROR | " + e.getMessage() + " | " + e);
+		}
 
-		departmentField.clear();
-		departmentField.sendKeys(dept);
+		try {
+			if(ageField.isDisplayed() && ageField.isEnabled()) {
+				ageField.clear();
+				ageField.sendKeys(age);
+			}
+		} 
+		catch (Exception  e) {
+			log.info("FAILED | Age text box is not Displayed or Enabled");
+			log.error("ERROR | " + e.getMessage() + " | " + e);
+		}
 
-		submitButton.isEnabled();
-		submitButton.click();
+		try {
+			if(salaryField.isDisplayed() && salaryField.isEnabled()) {
+				salaryField.clear();
+				salaryField.sendKeys(salary);
+			}
+		} 
+		catch (Exception  e) {
+			log.info("FAILED | Salary text box is not Displayed or Enabled");
+			log.error("ERROR | " + e.getMessage() + " | " + e);
+		}
+
+		try {
+			if(departmentField.isDisplayed() && departmentField.isEnabled()) {
+				departmentField.clear();
+				departmentField.sendKeys(dept);
+			}
+		} 
+		catch (Exception  e) {
+			log.info("FAILED | Department text box is not Displayed or Enabled");
+			log.error("ERROR | " + e.getMessage() + " | " + e);
+		}
+
+		try {
+			if(submitButton.isDisplayed() && submitButton.isEnabled()) {
+				try {
+					submitButton.click();
+				} 
+				catch (Exception e) {
+					log.info("FAILED | Submit button click is intercepted");
+					log.error("ERROR | " + e.getMessage() + " | " + e);
+				}
+			}
+		}
+		catch (Exception e) {
+			log.info("FAILED | Submit button is not Displayed or Enabled");
+			log.error("ERROR | " + e.getMessage() + " | " + e);
+		}
 	}
-	
+
+	// Verify the newly added record
 	public ArrayList<String> verifyNewlyAddedRecord(String fName) {
 
-		searchBox.clear();
-		searchBox.sendKeys(fName);
-		searchButton.isEnabled();
-		searchButton.click();
-		
+		try {
+			if(searchBox.isDisplayed() && searchBox.isEnabled()) {
+				searchBox.clear();
+				searchBox.sendKeys(fName);
+			}
+		}
+		catch (Exception e) {
+			log.info("FAILED | Search box is not Displayed or Enabled");
+			log.error("ERROR | " + e.getMessage() + " | " + e);
+		}
+
+		try {
+			if(searchButton.isDisplayed() && searchButton.isEnabled()) {
+				try {
+					searchButton.click();
+				}
+				catch (Exception e) {
+					log.info("FAILED | Search button click is intercepted");
+					log.error("ERROR | " + e.getMessage() + " | " + e);
+				}
+			}
+		}
+		catch (Exception e) {
+			log.info("FAILED | Search button is not Displayed or Enabled");
+			log.error("ERROR | " + e.getMessage() + " | " + e);
+		}
+
 		ArrayList<String> newData = new ArrayList<String>();
 
 		for(int c=1; c<=tableColumns.size(); c++) {
 			String newColumnXpath = "//div[@class='rt-tbody']/div[1]/div/div[" + c + "]";
 			WebElement newRowElements = ldriver.findElement(By.xpath(newColumnXpath));
 
-			newData.add(newRowElements.getText());
+			try {
+				newData.add(newRowElements.getText());
+			}
+			catch (Exception e) {
+				log.info("FAILED | Unable to fetch data from newly added record");
+				log.error("ERROR | " + e.getMessage() + " | " + e);
+			}
 		}
 
 		return newData;
 	}
-	
+
 }

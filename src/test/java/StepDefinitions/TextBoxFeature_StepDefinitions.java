@@ -11,23 +11,24 @@ public class TextBoxFeature_StepDefinitions extends BaseClass{
 		textBoxPage= new TextBoxPage(ldriver);
 		
 		textBoxPage.clickTextBoxButton();
-		log.info("PASSED | Text Box button is selected Successfully");
+		log.info("PASSED | Text Box button is clicked");
 	}
 
 	@Then("User enters all the values under the textboxes")
 	public void user_enters_all_the_values_under_the_textboxes() {
+		
 		textBoxPage.enterFullName("Himanshu");
 		textBoxPage.enterEmail("himanshu.qa@gmail.com");
 		textBoxPage.enterCurrentAddress("17/235 A-16, Hamas");
 		textBoxPage.enterPermanentAddress("A-1303, Israel");
 		
-		log.info("PASSED | Values Entered in TextBoxes Successfully");
+		log.info("PASSED | All Text Boxes are filled");
 	}
 
 	@Then("User clicks on Submit button")
 	public void user_clicks_on_submit_button() {
 		textBoxPage.clickSubmitButton();
-		log.info("PASSED | Submit Button is clicked Successfully");
+		log.info("PASSED | Submit Button is clicked");
 	}
 
 }

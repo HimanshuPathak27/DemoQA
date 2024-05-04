@@ -1,94 +1,124 @@
-[INFO ] 2024-05-01 12:46:19.766 [main] DemoQALogs - PASSED | Chrome Driver is Launched Successfully
-[INFO ] 2024-05-01 12:46:39.507 [main] DemoQALogs - PASSED | URL is loaded Successfully
-[INFO ] 2024-05-01 12:46:39.622 [main] DemoQALogs - PASSED | Home Page title is validated Successfully
-[INFO ] 2024-05-01 12:46:42.370 [main] DemoQALogs - PASSED | Elements tile is selected Successfully
-[INFO ] 2024-05-01 12:46:42.626 [main] DemoQALogs - PASSED | Buttons button is clicked Successfully
-[INFO ] 2024-05-01 12:47:04.880 [main] DemoQALogs - PASSED | Chrome Driver is Launched Successfully
-[INFO ] 2024-05-01 12:48:27.826 [main] DemoQALogs - PASSED | URL is loaded Successfully
-[INFO ] 2024-05-01 12:48:27.841 [main] DemoQALogs - PASSED | Home Page title is validated Successfully
-[INFO ] 2024-05-01 12:48:28.293 [main] DemoQALogs - PASSED | Elements tile is selected Successfully
-[INFO ] 2024-05-01 12:48:28.551 [main] DemoQALogs - PASSED | Checkbox button is selected Successfully
-[INFO ] 2024-05-01 12:48:33.820 [main] DemoQALogs - PASSED | Notes Checkbox is selected Successfully
-[INFO ] 2024-05-01 12:48:34.082 [main] DemoQALogs - PASSED | React Checkbox is selected Successfully
-[INFO ] 2024-05-01 12:48:34.242 [main] DemoQALogs - PASSED | Excel Files Checkbox is selected Successfully
-[INFO ] 2024-05-01 12:48:34.382 [main] DemoQALogs - PASSED | Selected checkboxes are validated Successfully
-[INFO ] 2024-05-01 12:48:38.342 [main] DemoQALogs - PASSED | Chrome Browser is Closed Successfully
-[INFO ] 2024-05-01 12:48:50.777 [main] DemoQALogs - PASSED | Chrome Driver is Launched Successfully
-[INFO ] 2024-05-01 12:49:46.535 [main] DemoQALogs - PASSED | URL is loaded Successfully
-[INFO ] 2024-05-01 12:49:46.546 [main] DemoQALogs - PASSED | Home Page title is validated Successfully
-[INFO ] 2024-05-01 12:49:46.929 [main] DemoQALogs - PASSED | Elements tile is selected Successfully
-[INFO ] 2024-05-01 12:49:47.237 [main] DemoQALogs - PASSED | Radio Button button is selected Successfully
-[INFO ] 2024-05-01 12:49:49.405 [main] DemoQALogs - PASSED | YES Radio Button button is validated Successfully
-[INFO ] 2024-05-01 12:49:49.515 [main] DemoQALogs - PASSED | IMPRESSIVE Radio Button button is validated Successfully
-[INFO ] 2024-05-01 12:49:49.551 [main] DemoQALogs - PASSED | NO Radio Button button is Disabled
-[INFO ] 2024-05-01 12:49:54.353 [main] DemoQALogs - PASSED | Chrome Browser is Closed Successfully
-[INFO ] 2024-05-01 12:50:09.480 [main] DemoQALogs - PASSED | Chrome Driver is Launched Successfully
-[INFO ] 2024-05-01 12:50:31.944 [main] DemoQALogs - PASSED | URL is loaded Successfully
-[INFO ] 2024-05-01 12:50:31.956 [main] DemoQALogs - PASSED | Home Page title is validated Successfully
-[INFO ] 2024-05-01 12:50:32.398 [main] DemoQALogs - PASSED | Elements tile is selected Successfully
-[INFO ] 2024-05-01 12:50:32.730 [main] DemoQALogs - PASSED | Text Box button is selected Successfully
-[INFO ] 2024-05-01 12:51:06.998 [main] DemoQALogs - PASSED | Chrome Driver is Launched Successfully
-[INFO ] 2024-05-01 12:51:29.042 [main] DemoQALogs - PASSED | URL is loaded Successfully
-[INFO ] 2024-05-01 12:51:29.059 [main] DemoQALogs - PASSED | Home Page title is validated Successfully
-[INFO ] 2024-05-01 12:51:29.773 [main] DemoQALogs - PASSED | Elements tile is selected Successfully
-[INFO ] 2024-05-01 12:53:37.933 [main] DemoQALogs - PASSED | Chrome Driver is Launched Successfully
-[INFO ] 2024-05-01 12:53:57.452 [main] DemoQALogs - PASSED | URL is loaded Successfully
-[INFO ] 2024-05-01 12:53:57.468 [main] DemoQALogs - PASSED | Home Page title is validated Successfully
-[INFO ] 2024-05-01 12:53:57.670 [main] DemoQALogs - PASSED | Elements tile is selected Successfully
-[INFO ] 2024-05-01 12:53:57.991 [main] DemoQALogs - PASSED | Buttons button is clicked Successfully
-[INFO ] 2024-05-01 12:53:58.276 [main] DemoQALogs - PASSED | Output of double click action is Matched
-[INFO ] 2024-05-01 12:53:59.157 [main] DemoQALogs - PASSED | Output of right click action is Matched
-[INFO ] 2024-05-01 12:53:59.318 [main] DemoQALogs - PASSED | Output of click action is Matched
-[INFO ] 2024-05-01 12:54:00.944 [main] DemoQALogs - PASSED | Chrome Browser is Closed Successfully
-[INFO ] 2024-05-01 12:54:02.436 [main] DemoQALogs - PASSED | Chrome Driver is Launched Successfully
-[INFO ] 2024-05-01 12:54:25.007 [main] DemoQALogs - PASSED | URL is loaded Successfully
-[INFO ] 2024-05-01 12:54:25.020 [main] DemoQALogs - PASSED | Home Page title is validated Successfully
-[INFO ] 2024-05-01 12:54:25.401 [main] DemoQALogs - PASSED | Elements tile is selected Successfully
-[INFO ] 2024-05-01 12:54:25.556 [main] DemoQALogs - PASSED | Checkbox button is selected Successfully
-[INFO ] 2024-05-01 12:54:25.980 [main] DemoQALogs - PASSED | Notes Checkbox is selected Successfully
-[INFO ] 2024-05-01 12:54:27.088 [main] DemoQALogs - PASSED | React Checkbox is selected Successfully
-[INFO ] 2024-05-01 12:54:27.286 [main] DemoQALogs - PASSED | Excel Files Checkbox is selected Successfully
-[INFO ] 2024-05-01 12:54:27.364 [main] DemoQALogs - PASSED | Selected checkboxes are validated Successfully
-[INFO ] 2024-05-01 12:54:29.027 [main] DemoQALogs - PASSED | Chrome Browser is Closed Successfully
-[INFO ] 2024-05-01 12:54:31.182 [main] DemoQALogs - PASSED | Chrome Driver is Launched Successfully
-[INFO ] 2024-05-01 12:55:29.377 [main] DemoQALogs - PASSED | URL is loaded Successfully
-[INFO ] 2024-05-01 12:55:29.388 [main] DemoQALogs - PASSED | Home Page title is validated Successfully
-[INFO ] 2024-05-01 12:55:29.910 [main] DemoQALogs - PASSED | Elements tile is selected Successfully
-[INFO ] 2024-05-01 12:55:30.242 [main] DemoQALogs - PASSED | Radio Button button is selected Successfully
-[INFO ] 2024-05-01 12:55:30.396 [main] DemoQALogs - PASSED | YES Radio Button button is validated Successfully
-[INFO ] 2024-05-01 12:55:30.602 [main] DemoQALogs - PASSED | IMPRESSIVE Radio Button button is validated Successfully
-[INFO ] 2024-05-01 12:55:30.632 [main] DemoQALogs - PASSED | NO Radio Button button is Disabled
-[INFO ] 2024-05-01 12:55:32.268 [main] DemoQALogs - PASSED | Chrome Browser is Closed Successfully
-[INFO ] 2024-05-01 12:55:35.419 [main] DemoQALogs - PASSED | Chrome Driver is Launched Successfully
-[INFO ] 2024-05-01 12:55:57.512 [main] DemoQALogs - PASSED | URL is loaded Successfully
-[INFO ] 2024-05-01 12:55:57.529 [main] DemoQALogs - PASSED | Home Page title is validated Successfully
-[INFO ] 2024-05-01 12:55:57.742 [main] DemoQALogs - PASSED | Elements tile is selected Successfully
-[INFO ] 2024-05-01 12:55:57.872 [main] DemoQALogs - PASSED | Text Box button is selected Successfully
-[INFO ] 2024-05-01 12:55:59.294 [main] DemoQALogs - PASSED | Values Entered in TextBoxes Successfully
-[INFO ] 2024-05-01 12:55:59.420 [main] DemoQALogs - PASSED | Submit Button is clicked Successfully
-[INFO ] 2024-05-01 12:56:00.002 [main] DemoQALogs - PASSED | Chrome Browser is Closed Successfully
-[INFO ] 2024-05-01 12:56:02.840 [main] DemoQALogs - PASSED | Chrome Driver is Launched Successfully
-[INFO ] 2024-05-01 12:56:26.712 [main] DemoQALogs - PASSED | URL is loaded Successfully
-[INFO ] 2024-05-01 12:56:26.729 [main] DemoQALogs - PASSED | Home Page title is validated Successfully
-[INFO ] 2024-05-01 12:56:26.982 [main] DemoQALogs - PASSED | Elements tile is selected Successfully
-[INFO ] 2024-05-01 12:56:27.286 [main] DemoQALogs - PASSED | Webtable Button is successfully Validated
-[INFO ] 2024-05-01 12:56:28.493 [main] DemoQALogs - PASSED | First Name header validated
-[INFO ] 2024-05-01 12:56:28.493 [main] DemoQALogs - PASSED | Last Name header validated
-[INFO ] 2024-05-01 12:56:28.493 [main] DemoQALogs - PASSED | Age header validated
-[INFO ] 2024-05-01 12:56:28.493 [main] DemoQALogs - PASSED | Email header validated
-[INFO ] 2024-05-01 12:56:28.493 [main] DemoQALogs - PASSED | Salary header validated
-[INFO ] 2024-05-01 12:56:28.493 [main] DemoQALogs - PASSED | Department header validated
-[INFO ] 2024-05-01 12:56:28.493 [main] DemoQALogs - PASSED | Action header validated
-[INFO ] 2024-05-01 12:56:28.493 [main] DemoQALogs - PASSED | Headers of all the Column of Webtable are Validated
-[INFO ] 2024-05-01 12:56:31.402 [main] DemoQALogs - PASSED | Row-2 is Updated in the table
-[INFO ] 2024-05-01 12:56:31.698 [main] DemoQALogs - PASSED | First Name validated
-[INFO ] 2024-05-01 12:56:31.698 [main] DemoQALogs - PASSED | Last Name validated
-[INFO ] 2024-05-01 12:56:31.698 [main] DemoQALogs - PASSED | Age validated
-[INFO ] 2024-05-01 12:56:31.698 [main] DemoQALogs - PASSED | Email validated
-[INFO ] 2024-05-01 12:56:31.698 [main] DemoQALogs - PASSED | Salary validated
-[INFO ] 2024-05-01 12:56:31.698 [main] DemoQALogs - PASSED | Department validated
-[INFO ] 2024-05-01 12:56:31.698 [main] DemoQALogs - PASSED | Updated data of Row-2 of Webtable is Validated
-[INFO ] 2024-05-01 12:56:31.791 [main] DemoQALogs - PASSED | Row2 Record is deleted
-[INFO ] 2024-05-01 12:56:34.621 [main] DemoQALogs - PASSED | New Record is added in the table
-[INFO ] 2024-05-01 12:56:39.149 [main] DemoQALogs - PASSED | Newly Added Data on Webtable is Validated
-[INFO ] 2024-05-01 12:56:39.649 [main] DemoQALogs - PASSED | Chrome Browser is Closed Successfully
+[INFO ] 2024-05-04 20:46:07.467 [main] DemoQALogs - PASSED | Chrome Driver is Launched
+[INFO ] 2024-05-04 20:46:28.498 [main] DemoQALogs - PASSED | URL is loaded
+[INFO ] 2024-05-04 20:46:28.526 [main] DemoQALogs - PASSED | Home Page title is validated
+[INFO ] 2024-05-04 20:46:28.797 [main] DemoQALogs - PASSED | Elements tile is clicked
+[INFO ] 2024-05-04 20:46:29.036 [main] DemoQALogs - PASSED | Buttons button is clicked Successfully
+[INFO ] 2024-05-04 20:46:40.444 [main] DemoQALogs - FAILED | Unable to fetch Output of double click action on Double Click Me button
+[ERROR] 2024-05-04 20:46:40.444 [main] DemoQALogs - ERROR | no such element: Unable to locate element: {"method":"xpath","selector":"//p[@id='doubleClickMessage']"}
+  (Session info: chrome=124.0.6367.119)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a0bad165913051ae9537a5f0f2e3b09c, findElement {using=xpath, value=//p[@id='doubleClickMessage']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.119, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\himan\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49992}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49992/devtoo..., se:cdpVersion: 124.0.6367.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a0bad165913051ae9537a5f0f2e3b09c | org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//p[@id='doubleClickMessage']"}
+  (Session info: chrome=124.0.6367.119)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a0bad165913051ae9537a5f0f2e3b09c, findElement {using=xpath, value=//p[@id='doubleClickMessage']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.119, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\himan\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49992}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49992/devtoo..., se:cdpVersion: 124.0.6367.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a0bad165913051ae9537a5f0f2e3b09c
+[INFO ] 2024-05-04 20:46:45.192 [main] DemoQALogs - PASSED | Chrome Driver is Launched
+[INFO ] 2024-05-04 20:46:46.105 [main] DemoQALogs - PASSED | URL is loaded
+[INFO ] 2024-05-04 20:46:46.120 [main] DemoQALogs - FAILED | Unable to fetch title of Home Page
+[ERROR] 2024-05-04 20:46:46.120 [main] DemoQALogs - ERROR | no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=124.0.6367.119)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f60bdbbb48005109c38c625230a62766, getTitle {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.119, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\himan\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50102}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50102/devtoo..., se:cdpVersion: 124.0.6367.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f60bdbbb48005109c38c625230a62766 | org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=124.0.6367.119)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f60bdbbb48005109c38c625230a62766, getTitle {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.119, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\himan\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50102}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50102/devtoo..., se:cdpVersion: 124.0.6367.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f60bdbbb48005109c38c625230a62766
+[INFO ] 2024-05-04 20:46:49.565 [main] DemoQALogs - PASSED | Chrome Driver is Launched
+[INFO ] 2024-05-04 20:46:50.502 [main] DemoQALogs - PASSED | URL is loaded
+[INFO ] 2024-05-04 20:46:50.567 [main] DemoQALogs - FAILED | Unable to fetch title of Home Page
+[ERROR] 2024-05-04 20:46:50.569 [main] DemoQALogs - ERROR | no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=124.0.6367.119)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [05295aec8b87b3bfeb032e8ef6d56333, getTitle {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.119, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\himan\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50118}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50118/devtoo..., se:cdpVersion: 124.0.6367.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 05295aec8b87b3bfeb032e8ef6d56333 | org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=124.0.6367.119)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [05295aec8b87b3bfeb032e8ef6d56333, getTitle {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.119, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\himan\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50118}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50118/devtoo..., se:cdpVersion: 124.0.6367.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 05295aec8b87b3bfeb032e8ef6d56333
+[INFO ] 2024-05-04 20:47:11.925 [main] DemoQALogs - PASSED | Chrome Driver is Launched
+[INFO ] 2024-05-04 20:47:33.284 [main] DemoQALogs - PASSED | URL is loaded
+[INFO ] 2024-05-04 20:47:33.310 [main] DemoQALogs - PASSED | Home Page title is validated
+[INFO ] 2024-05-04 20:47:33.609 [main] DemoQALogs - PASSED | Elements tile is clicked
+[INFO ] 2024-05-04 20:47:33.815 [main] DemoQALogs - PASSED | Buttons button is clicked Successfully
+[INFO ] 2024-05-04 20:47:34.378 [main] DemoQALogs - PASSED | Output of double click action is Matched
+[INFO ] 2024-05-04 20:47:35.822 [main] DemoQALogs - PASSED | Output of right click action is Matched
+[INFO ] 2024-05-04 20:47:36.412 [main] DemoQALogs - PASSED | Output of click action is Matched
+[INFO ] 2024-05-04 20:47:37.177 [main] DemoQALogs - PASSED | Chrome Browser is Closed
+[INFO ] 2024-05-04 20:47:38.760 [main] DemoQALogs - PASSED | Chrome Driver is Launched
+[INFO ] 2024-05-04 20:48:01.374 [main] DemoQALogs - PASSED | URL is loaded
+[INFO ] 2024-05-04 20:48:01.396 [main] DemoQALogs - PASSED | Home Page title is validated
+[INFO ] 2024-05-04 20:48:01.644 [main] DemoQALogs - PASSED | Elements tile is clicked
+[INFO ] 2024-05-04 20:48:01.931 [main] DemoQALogs - PASSED | Checkbox button is clicked
+[INFO ] 2024-05-04 20:48:02.642 [main] DemoQALogs - PASSED | Notes Checkbox is selected
+[INFO ] 2024-05-04 20:48:03.252 [main] DemoQALogs - PASSED | React Checkbox is selected
+[INFO ] 2024-05-04 20:48:03.644 [main] DemoQALogs - PASSED | Excel Files Checkbox is selected
+[INFO ] 2024-05-04 20:48:03.941 [main] DemoQALogs - PASSED | Output of selected checkboxes are validated
+[INFO ] 2024-05-04 20:48:05.710 [main] DemoQALogs - PASSED | Chrome Browser is Closed
+[INFO ] 2024-05-04 20:48:07.194 [main] DemoQALogs - PASSED | Chrome Driver is Launched
+[INFO ] 2024-05-04 20:48:29.556 [main] DemoQALogs - PASSED | URL is loaded
+[INFO ] 2024-05-04 20:48:29.556 [main] DemoQALogs - PASSED | Home Page title is validated
+[INFO ] 2024-05-04 20:48:29.851 [main] DemoQALogs - PASSED | Elements tile is clicked
+[INFO ] 2024-05-04 20:48:30.085 [main] DemoQALogs - PASSED | Radio Button button Clicked
+[INFO ] 2024-05-04 20:48:30.356 [main] DemoQALogs - PASSED | YES Radio Button button is validated
+[INFO ] 2024-05-04 20:48:30.791 [main] DemoQALogs - PASSED | IMPRESSIVE Radio Button button is validated
+[INFO ] 2024-05-04 20:48:30.858 [main] DemoQALogs - PASSED | NO Radio Button button is validated
+[INFO ] 2024-05-04 20:48:32.880 [main] DemoQALogs - PASSED | Chrome Browser is Closed
+[INFO ] 2024-05-04 20:48:34.370 [main] DemoQALogs - PASSED | Chrome Driver is Launched
+[INFO ] 2024-05-04 20:48:58.324 [main] DemoQALogs - PASSED | URL is loaded
+[INFO ] 2024-05-04 20:48:58.343 [main] DemoQALogs - PASSED | Home Page title is validated
+[INFO ] 2024-05-04 20:48:58.605 [main] DemoQALogs - PASSED | Elements tile is clicked
+[INFO ] 2024-05-04 20:48:58.748 [main] DemoQALogs - PASSED | Text Box button is clicked
+[INFO ] 2024-05-04 20:49:00.503 [main] DemoQALogs - PASSED | All Text Boxes are filled
+[INFO ] 2024-05-04 20:49:00.884 [main] DemoQALogs - PASSED | Submit Button is clicked
+[INFO ] 2024-05-04 20:49:01.378 [main] DemoQALogs - PASSED | Chrome Browser is Closed
+[INFO ] 2024-05-04 20:49:03.622 [main] DemoQALogs - PASSED | Chrome Driver is Launched
+[INFO ] 2024-05-04 20:49:23.903 [main] DemoQALogs - PASSED | URL is loaded
+[INFO ] 2024-05-04 20:49:23.922 [main] DemoQALogs - PASSED | Home Page title is validated
+[INFO ] 2024-05-04 20:49:24.223 [main] DemoQALogs - PASSED | Elements tile is clicked
+[INFO ] 2024-05-04 20:49:24.408 [main] DemoQALogs - PASSED | Webtable Button is successfully Validated
+[INFO ] 2024-05-04 20:49:24.722 [main] DemoQALogs - PASSED | First Name header validated
+[INFO ] 2024-05-04 20:49:24.722 [main] DemoQALogs - PASSED | Last Name header validated
+[INFO ] 2024-05-04 20:49:24.722 [main] DemoQALogs - PASSED | Age header validated
+[INFO ] 2024-05-04 20:49:24.722 [main] DemoQALogs - PASSED | Email header validated
+[INFO ] 2024-05-04 20:49:24.722 [main] DemoQALogs - PASSED | Salary header validated
+[INFO ] 2024-05-04 20:49:24.722 [main] DemoQALogs - PASSED | Department header validated
+[INFO ] 2024-05-04 20:49:24.722 [main] DemoQALogs - PASSED | Action header validated
+[INFO ] 2024-05-04 20:49:24.722 [main] DemoQALogs - PASSED | Headers of all the Column of Webtable are Validated
+[INFO ] 2024-05-04 20:49:27.554 [main] DemoQALogs - PASSED | Row-2 is Updated in the table
+[INFO ] 2024-05-04 20:49:27.903 [main] DemoQALogs - PASSED | First Name validated
+[INFO ] 2024-05-04 20:49:27.903 [main] DemoQALogs - PASSED | Last Name validated
+[INFO ] 2024-05-04 20:49:27.903 [main] DemoQALogs - PASSED | Age validated
+[INFO ] 2024-05-04 20:49:27.903 [main] DemoQALogs - PASSED | Email validated
+[INFO ] 2024-05-04 20:49:27.903 [main] DemoQALogs - PASSED | Salary validated
+[INFO ] 2024-05-04 20:49:27.903 [main] DemoQALogs - PASSED | Department validated
+[INFO ] 2024-05-04 20:49:27.903 [main] DemoQALogs - PASSED | Updated data of Row-2 of Webtable is Validated
+[INFO ] 2024-05-04 20:49:28.045 [main] DemoQALogs - PASSED | Row2 Record is deleted
+[INFO ] 2024-05-04 20:49:29.421 [main] DemoQALogs - PASSED | New Record is added in the table
+[INFO ] 2024-05-04 20:49:30.223 [main] DemoQALogs - PASSED | Newly Added Data on Webtable is Validated
+[INFO ] 2024-05-04 20:49:30.645 [main] DemoQALogs - PASSED | Chrome Browser is Closed
