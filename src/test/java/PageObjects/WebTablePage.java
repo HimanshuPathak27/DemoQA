@@ -232,6 +232,7 @@ public class WebTablePage extends BaseClass {
 		}
 
 		return row2Data;
+
 	}
 
 	//Delete Record in row-2
@@ -356,6 +357,7 @@ public class WebTablePage extends BaseClass {
 			log.info("FAILED | Submit button is not Displayed or Enabled");
 			log.error("ERROR | " + e.getMessage() + " | " + e);
 		}
+
 	}
 
 	// Verify the newly added record
@@ -404,6 +406,7 @@ public class WebTablePage extends BaseClass {
 		}
 
 		return newData;
+
 	}
 
 }

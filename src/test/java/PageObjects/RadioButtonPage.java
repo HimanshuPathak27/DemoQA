@@ -39,6 +39,7 @@ public class RadioButtonPage extends BaseClass{
 
 	// Click on Radio button on left rail
 	public void clickRadioButton() {
+		
 		try {
 			if(radioButton.isDisplayed() && radioButton.isEnabled()) {
 				try {
@@ -54,10 +55,12 @@ public class RadioButtonPage extends BaseClass{
 			log.info("FAILED | Radio button is not Displayed or Enabled");
 			log.error("ERROR | " + e.getMessage() + " | " + e);
 		}
+		
 	}
 
 	// Click Yes radio button and verify the response
 	public String verifyYesRadioButton() {
+		
 		js.executeScript("arguments[0].scrollIntoView()", yesRadioButton);
 
 		try {

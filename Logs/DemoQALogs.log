@@ -1,124 +1,203 @@
-[INFO ] 2024-05-04 20:46:07.467 [main] DemoQALogs - PASSED | Chrome Driver is Launched
-[INFO ] 2024-05-04 20:46:28.498 [main] DemoQALogs - PASSED | URL is loaded
-[INFO ] 2024-05-04 20:46:28.526 [main] DemoQALogs - PASSED | Home Page title is validated
-[INFO ] 2024-05-04 20:46:28.797 [main] DemoQALogs - PASSED | Elements tile is clicked
-[INFO ] 2024-05-04 20:46:29.036 [main] DemoQALogs - PASSED | Buttons button is clicked Successfully
-[INFO ] 2024-05-04 20:46:40.444 [main] DemoQALogs - FAILED | Unable to fetch Output of double click action on Double Click Me button
-[ERROR] 2024-05-04 20:46:40.444 [main] DemoQALogs - ERROR | no such element: Unable to locate element: {"method":"xpath","selector":"//p[@id='doubleClickMessage']"}
+[INFO ] 2024-05-07 19:04:07.472 [main] DemoQALogs - PASSED | Chrome Driver is Launched
+[INFO ] 2024-05-07 19:05:10.455 [main] DemoQALogs - PASSED | URL is loaded
+[INFO ] 2024-05-07 19:05:10.469 [main] DemoQALogs - PASSED | Home Page title is validated
+[INFO ] 2024-05-07 19:05:10.719 [main] DemoQALogs - PASSED | Elements tile is clicked
+[INFO ] 2024-05-07 19:05:10.874 [main] DemoQALogs - PASSED | Buttons button is clicked Successfully
+[INFO ] 2024-05-07 19:05:11.225 [main] DemoQALogs - PASSED | Output of double click action is Matched
+[INFO ] 2024-05-07 19:05:31.660 [main] DemoQALogs - FAILED | Unable to fetch Output of right click action on Right Click Me button
+[ERROR] 2024-05-07 19:05:31.669 [main] DemoQALogs - ERROR | Cannot invoke "Object.getClass()" because "exceptionDriver" is null | java.lang.NullPointerException: Cannot invoke "Object.getClass()" because "exceptionDriver" is null
+[INFO ] 2024-05-07 19:05:31.985 [main] DemoQALogs - PASSED | Output of right click action is Matched
+[INFO ] 2024-05-07 19:05:32.348 [main] DemoQALogs - PASSED | Output of click action is Matched
+[INFO ] 2024-05-07 19:05:32.617 [main] DemoQALogs - PASSED | Chrome Browser is Closed
+[INFO ] 2024-05-07 19:05:35.869 [main] DemoQALogs - PASSED | Chrome Driver is Launched
+[INFO ] 2024-05-07 19:06:30.730 [main] DemoQALogs - PASSED | URL is loaded
+[INFO ] 2024-05-07 19:06:30.748 [main] DemoQALogs - PASSED | Home Page title is validated
+[INFO ] 2024-05-07 19:06:30.958 [main] DemoQALogs - PASSED | Elements tile is clicked
+[INFO ] 2024-05-07 19:06:31.110 [main] DemoQALogs - PASSED | Checkbox button is clicked
+[INFO ] 2024-05-07 19:06:31.519 [main] DemoQALogs - PASSED | Notes Checkbox is selected
+[INFO ] 2024-05-07 19:06:32.636 [main] DemoQALogs - PASSED | React Checkbox is selected
+[INFO ] 2024-05-07 19:06:32.875 [main] DemoQALogs - PASSED | Excel Files Checkbox is selected
+[INFO ] 2024-05-07 19:06:32.946 [main] DemoQALogs - PASSED | Output of selected checkboxes are validated
+[INFO ] 2024-05-07 19:06:33.242 [main] DemoQALogs - PASSED | Chrome Browser is Closed
+[INFO ] 2024-05-07 19:06:34.651 [main] DemoQALogs - PASSED | Chrome Driver is Launched
+[INFO ] 2024-05-07 19:06:55.573 [main] DemoQALogs - PASSED | URL is loaded
+[INFO ] 2024-05-07 19:06:55.599 [main] DemoQALogs - PASSED | Home Page title is validated
+[INFO ] 2024-05-07 19:06:55.797 [main] DemoQALogs - PASSED | Elements tile is clicked
+[INFO ] 2024-05-07 19:06:56.018 [main] DemoQALogs - PASSED | Links button is clicked Successfully
+[INFO ] 2024-05-07 19:06:56.253 [main] DemoQALogs - PASSED | Created Link clicked
+[INFO ] 2024-05-07 19:06:59.336 [main] DemoQALogs - PASSED | Responses validated for Created link
+[INFO ] 2024-05-07 19:07:02.489 [main] DemoQALogs - PASSED | Responses validated for No Content link
+[INFO ] 2024-05-07 19:07:05.707 [main] DemoQALogs - PASSED | Responses validated for Moved link
+[INFO ] 2024-05-07 19:07:08.894 [main] DemoQALogs - PASSED | Responses validated for Bad Request link
+[INFO ] 2024-05-07 19:07:12.066 [main] DemoQALogs - PASSED | Responses validated for Unauthorized link
+[INFO ] 2024-05-07 19:07:15.258 [main] DemoQALogs - PASSED | Responses validated for Forbidden link
+[INFO ] 2024-05-07 19:07:18.456 [main] DemoQALogs - PASSED | Responses validated for Unauthorized link
+[INFO ] 2024-05-07 19:07:18.816 [main] DemoQALogs - PASSED | Chrome Browser is Closed
+[INFO ] 2024-05-07 19:07:20.403 [main] DemoQALogs - PASSED | Chrome Driver is Launched
+[INFO ] 2024-05-07 19:07:39.733 [main] DemoQALogs - PASSED | URL is loaded
+[INFO ] 2024-05-07 19:07:39.745 [main] DemoQALogs - PASSED | Home Page title is validated
+[INFO ] 2024-05-07 19:07:39.984 [main] DemoQALogs - PASSED | Elements tile is clicked
+[INFO ] 2024-05-07 19:07:40.095 [main] DemoQALogs - PASSED | Radio Button button Clicked
+[INFO ] 2024-05-07 19:07:40.460 [main] DemoQALogs - PASSED | YES Radio Button button is validated
+[INFO ] 2024-05-07 19:07:40.622 [main] DemoQALogs - PASSED | IMPRESSIVE Radio Button button is validated
+[INFO ] 2024-05-07 19:07:40.642 [main] DemoQALogs - PASSED | NO Radio Button button is validated
+[INFO ] 2024-05-07 19:07:40.876 [main] DemoQALogs - PASSED | Chrome Browser is Closed
+[INFO ] 2024-05-07 19:07:42.083 [main] DemoQALogs - PASSED | Chrome Driver is Launched
+[INFO ] 2024-05-07 19:08:02.147 [main] DemoQALogs - PASSED | URL is loaded
+[INFO ] 2024-05-07 19:08:02.160 [main] DemoQALogs - PASSED | Home Page title is validated
+[INFO ] 2024-05-07 19:08:12.206 [main] DemoQALogs - FAILED | Elements Tile button is not Displayed or Enabled
+[ERROR] 2024-05-07 19:08:12.206 [main] DemoQALogs - ERROR | no such element: Unable to locate element: {"method":"xpath","selector":"//h5[text()='Elements']/.."}
   (Session info: chrome=124.0.6367.119)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.18.1', revision: 'b1d3319b48'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a0bad165913051ae9537a5f0f2e3b09c, findElement {using=xpath, value=//p[@id='doubleClickMessage']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.119, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\himan\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49992}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49992/devtoo..., se:cdpVersion: 124.0.6367.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a0bad165913051ae9537a5f0f2e3b09c | org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//p[@id='doubleClickMessage']"}
+Command: [07c1aea98c2fc5310cff80624a91202a, findElement {value=//h5[text()='Elements']/.., using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.119, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\himan\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53413}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53413/devtoo..., se:cdpVersion: 124.0.6367.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 07c1aea98c2fc5310cff80624a91202a | org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//h5[text()='Elements']/.."}
   (Session info: chrome=124.0.6367.119)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.18.1', revision: 'b1d3319b48'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a0bad165913051ae9537a5f0f2e3b09c, findElement {using=xpath, value=//p[@id='doubleClickMessage']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.119, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\himan\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49992}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49992/devtoo..., se:cdpVersion: 124.0.6367.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a0bad165913051ae9537a5f0f2e3b09c
-[INFO ] 2024-05-04 20:46:45.192 [main] DemoQALogs - PASSED | Chrome Driver is Launched
-[INFO ] 2024-05-04 20:46:46.105 [main] DemoQALogs - PASSED | URL is loaded
-[INFO ] 2024-05-04 20:46:46.120 [main] DemoQALogs - FAILED | Unable to fetch title of Home Page
-[ERROR] 2024-05-04 20:46:46.120 [main] DemoQALogs - ERROR | no such window: target window already closed
-from unknown error: web view not found
+Command: [07c1aea98c2fc5310cff80624a91202a, findElement {value=//h5[text()='Elements']/.., using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.119, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\himan\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53413}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53413/devtoo..., se:cdpVersion: 124.0.6367.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 07c1aea98c2fc5310cff80624a91202a
+[INFO ] 2024-05-07 19:08:12.206 [main] DemoQALogs - PASSED | Elements tile is clicked
+[INFO ] 2024-05-07 19:08:22.237 [main] DemoQALogs - FAILED | Text Box button is not Displayed or Enabled
+[ERROR] 2024-05-07 19:08:22.237 [main] DemoQALogs - ERROR | no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Text Box']/.."}
   (Session info: chrome=124.0.6367.119)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.18.1', revision: 'b1d3319b48'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [f60bdbbb48005109c38c625230a62766, getTitle {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.119, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\himan\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50102}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50102/devtoo..., se:cdpVersion: 124.0.6367.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: f60bdbbb48005109c38c625230a62766 | org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
+Command: [07c1aea98c2fc5310cff80624a91202a, findElement {value=//span[text()='Text Box']/.., using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.119, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\himan\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53413}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53413/devtoo..., se:cdpVersion: 124.0.6367.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 07c1aea98c2fc5310cff80624a91202a | org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Text Box']/.."}
   (Session info: chrome=124.0.6367.119)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.18.1', revision: 'b1d3319b48'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [f60bdbbb48005109c38c625230a62766, getTitle {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.119, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\himan\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50102}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50102/devtoo..., se:cdpVersion: 124.0.6367.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: f60bdbbb48005109c38c625230a62766
-[INFO ] 2024-05-04 20:46:49.565 [main] DemoQALogs - PASSED | Chrome Driver is Launched
-[INFO ] 2024-05-04 20:46:50.502 [main] DemoQALogs - PASSED | URL is loaded
-[INFO ] 2024-05-04 20:46:50.567 [main] DemoQALogs - FAILED | Unable to fetch title of Home Page
-[ERROR] 2024-05-04 20:46:50.569 [main] DemoQALogs - ERROR | no such window: target window already closed
-from unknown error: web view not found
+Command: [07c1aea98c2fc5310cff80624a91202a, findElement {value=//span[text()='Text Box']/.., using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.119, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\himan\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53413}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53413/devtoo..., se:cdpVersion: 124.0.6367.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 07c1aea98c2fc5310cff80624a91202a
+[INFO ] 2024-05-07 19:08:22.237 [main] DemoQALogs - PASSED | Text Box button is clicked
+[INFO ] 2024-05-07 19:08:32.299 [main] DemoQALogs - FAILED | Full Name text box is not Displayed or Enabled
+[ERROR] 2024-05-07 19:08:32.299 [main] DemoQALogs - ERROR | no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='userName']"}
   (Session info: chrome=124.0.6367.119)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.18.1', revision: 'b1d3319b48'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [05295aec8b87b3bfeb032e8ef6d56333, getTitle {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.119, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\himan\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50118}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50118/devtoo..., se:cdpVersion: 124.0.6367.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 05295aec8b87b3bfeb032e8ef6d56333 | org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
+Command: [07c1aea98c2fc5310cff80624a91202a, findElement {value=//input[@id='userName'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.119, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\himan\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53413}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53413/devtoo..., se:cdpVersion: 124.0.6367.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 07c1aea98c2fc5310cff80624a91202a | org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='userName']"}
   (Session info: chrome=124.0.6367.119)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.18.1', revision: 'b1d3319b48'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [05295aec8b87b3bfeb032e8ef6d56333, getTitle {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.119, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\himan\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50118}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50118/devtoo..., se:cdpVersion: 124.0.6367.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 05295aec8b87b3bfeb032e8ef6d56333
-[INFO ] 2024-05-04 20:47:11.925 [main] DemoQALogs - PASSED | Chrome Driver is Launched
-[INFO ] 2024-05-04 20:47:33.284 [main] DemoQALogs - PASSED | URL is loaded
-[INFO ] 2024-05-04 20:47:33.310 [main] DemoQALogs - PASSED | Home Page title is validated
-[INFO ] 2024-05-04 20:47:33.609 [main] DemoQALogs - PASSED | Elements tile is clicked
-[INFO ] 2024-05-04 20:47:33.815 [main] DemoQALogs - PASSED | Buttons button is clicked Successfully
-[INFO ] 2024-05-04 20:47:34.378 [main] DemoQALogs - PASSED | Output of double click action is Matched
-[INFO ] 2024-05-04 20:47:35.822 [main] DemoQALogs - PASSED | Output of right click action is Matched
-[INFO ] 2024-05-04 20:47:36.412 [main] DemoQALogs - PASSED | Output of click action is Matched
-[INFO ] 2024-05-04 20:47:37.177 [main] DemoQALogs - PASSED | Chrome Browser is Closed
-[INFO ] 2024-05-04 20:47:38.760 [main] DemoQALogs - PASSED | Chrome Driver is Launched
-[INFO ] 2024-05-04 20:48:01.374 [main] DemoQALogs - PASSED | URL is loaded
-[INFO ] 2024-05-04 20:48:01.396 [main] DemoQALogs - PASSED | Home Page title is validated
-[INFO ] 2024-05-04 20:48:01.644 [main] DemoQALogs - PASSED | Elements tile is clicked
-[INFO ] 2024-05-04 20:48:01.931 [main] DemoQALogs - PASSED | Checkbox button is clicked
-[INFO ] 2024-05-04 20:48:02.642 [main] DemoQALogs - PASSED | Notes Checkbox is selected
-[INFO ] 2024-05-04 20:48:03.252 [main] DemoQALogs - PASSED | React Checkbox is selected
-[INFO ] 2024-05-04 20:48:03.644 [main] DemoQALogs - PASSED | Excel Files Checkbox is selected
-[INFO ] 2024-05-04 20:48:03.941 [main] DemoQALogs - PASSED | Output of selected checkboxes are validated
-[INFO ] 2024-05-04 20:48:05.710 [main] DemoQALogs - PASSED | Chrome Browser is Closed
-[INFO ] 2024-05-04 20:48:07.194 [main] DemoQALogs - PASSED | Chrome Driver is Launched
-[INFO ] 2024-05-04 20:48:29.556 [main] DemoQALogs - PASSED | URL is loaded
-[INFO ] 2024-05-04 20:48:29.556 [main] DemoQALogs - PASSED | Home Page title is validated
-[INFO ] 2024-05-04 20:48:29.851 [main] DemoQALogs - PASSED | Elements tile is clicked
-[INFO ] 2024-05-04 20:48:30.085 [main] DemoQALogs - PASSED | Radio Button button Clicked
-[INFO ] 2024-05-04 20:48:30.356 [main] DemoQALogs - PASSED | YES Radio Button button is validated
-[INFO ] 2024-05-04 20:48:30.791 [main] DemoQALogs - PASSED | IMPRESSIVE Radio Button button is validated
-[INFO ] 2024-05-04 20:48:30.858 [main] DemoQALogs - PASSED | NO Radio Button button is validated
-[INFO ] 2024-05-04 20:48:32.880 [main] DemoQALogs - PASSED | Chrome Browser is Closed
-[INFO ] 2024-05-04 20:48:34.370 [main] DemoQALogs - PASSED | Chrome Driver is Launched
-[INFO ] 2024-05-04 20:48:58.324 [main] DemoQALogs - PASSED | URL is loaded
-[INFO ] 2024-05-04 20:48:58.343 [main] DemoQALogs - PASSED | Home Page title is validated
-[INFO ] 2024-05-04 20:48:58.605 [main] DemoQALogs - PASSED | Elements tile is clicked
-[INFO ] 2024-05-04 20:48:58.748 [main] DemoQALogs - PASSED | Text Box button is clicked
-[INFO ] 2024-05-04 20:49:00.503 [main] DemoQALogs - PASSED | All Text Boxes are filled
-[INFO ] 2024-05-04 20:49:00.884 [main] DemoQALogs - PASSED | Submit Button is clicked
-[INFO ] 2024-05-04 20:49:01.378 [main] DemoQALogs - PASSED | Chrome Browser is Closed
-[INFO ] 2024-05-04 20:49:03.622 [main] DemoQALogs - PASSED | Chrome Driver is Launched
-[INFO ] 2024-05-04 20:49:23.903 [main] DemoQALogs - PASSED | URL is loaded
-[INFO ] 2024-05-04 20:49:23.922 [main] DemoQALogs - PASSED | Home Page title is validated
-[INFO ] 2024-05-04 20:49:24.223 [main] DemoQALogs - PASSED | Elements tile is clicked
-[INFO ] 2024-05-04 20:49:24.408 [main] DemoQALogs - PASSED | Webtable Button is successfully Validated
-[INFO ] 2024-05-04 20:49:24.722 [main] DemoQALogs - PASSED | First Name header validated
-[INFO ] 2024-05-04 20:49:24.722 [main] DemoQALogs - PASSED | Last Name header validated
-[INFO ] 2024-05-04 20:49:24.722 [main] DemoQALogs - PASSED | Age header validated
-[INFO ] 2024-05-04 20:49:24.722 [main] DemoQALogs - PASSED | Email header validated
-[INFO ] 2024-05-04 20:49:24.722 [main] DemoQALogs - PASSED | Salary header validated
-[INFO ] 2024-05-04 20:49:24.722 [main] DemoQALogs - PASSED | Department header validated
-[INFO ] 2024-05-04 20:49:24.722 [main] DemoQALogs - PASSED | Action header validated
-[INFO ] 2024-05-04 20:49:24.722 [main] DemoQALogs - PASSED | Headers of all the Column of Webtable are Validated
-[INFO ] 2024-05-04 20:49:27.554 [main] DemoQALogs - PASSED | Row-2 is Updated in the table
-[INFO ] 2024-05-04 20:49:27.903 [main] DemoQALogs - PASSED | First Name validated
-[INFO ] 2024-05-04 20:49:27.903 [main] DemoQALogs - PASSED | Last Name validated
-[INFO ] 2024-05-04 20:49:27.903 [main] DemoQALogs - PASSED | Age validated
-[INFO ] 2024-05-04 20:49:27.903 [main] DemoQALogs - PASSED | Email validated
-[INFO ] 2024-05-04 20:49:27.903 [main] DemoQALogs - PASSED | Salary validated
-[INFO ] 2024-05-04 20:49:27.903 [main] DemoQALogs - PASSED | Department validated
-[INFO ] 2024-05-04 20:49:27.903 [main] DemoQALogs - PASSED | Updated data of Row-2 of Webtable is Validated
-[INFO ] 2024-05-04 20:49:28.045 [main] DemoQALogs - PASSED | Row2 Record is deleted
-[INFO ] 2024-05-04 20:49:29.421 [main] DemoQALogs - PASSED | New Record is added in the table
-[INFO ] 2024-05-04 20:49:30.223 [main] DemoQALogs - PASSED | Newly Added Data on Webtable is Validated
-[INFO ] 2024-05-04 20:49:30.645 [main] DemoQALogs - PASSED | Chrome Browser is Closed
+Command: [07c1aea98c2fc5310cff80624a91202a, findElement {value=//input[@id='userName'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.119, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\himan\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53413}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53413/devtoo..., se:cdpVersion: 124.0.6367.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 07c1aea98c2fc5310cff80624a91202a
+[INFO ] 2024-05-07 19:08:42.311 [main] DemoQALogs - FAILED | Email text box is not Displayed or Enabled
+[ERROR] 2024-05-07 19:08:42.311 [main] DemoQALogs - ERROR | no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='userEmail']"}
+  (Session info: chrome=124.0.6367.119)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [07c1aea98c2fc5310cff80624a91202a, findElement {value=//input[@id='userEmail'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.119, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\himan\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53413}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53413/devtoo..., se:cdpVersion: 124.0.6367.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 07c1aea98c2fc5310cff80624a91202a | org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='userEmail']"}
+  (Session info: chrome=124.0.6367.119)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [07c1aea98c2fc5310cff80624a91202a, findElement {value=//input[@id='userEmail'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.119, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\himan\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53413}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53413/devtoo..., se:cdpVersion: 124.0.6367.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 07c1aea98c2fc5310cff80624a91202a
+[INFO ] 2024-05-07 19:08:52.334 [main] DemoQALogs - FAILED | Current Address text box is not Displayed or Enabled
+[ERROR] 2024-05-07 19:08:52.334 [main] DemoQALogs - ERROR | no such element: Unable to locate element: {"method":"xpath","selector":"//textarea[@id='currentAddress']"}
+  (Session info: chrome=124.0.6367.119)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [07c1aea98c2fc5310cff80624a91202a, findElement {value=//textarea[@id='currentAddress'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.119, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\himan\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53413}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53413/devtoo..., se:cdpVersion: 124.0.6367.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 07c1aea98c2fc5310cff80624a91202a | org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//textarea[@id='currentAddress']"}
+  (Session info: chrome=124.0.6367.119)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [07c1aea98c2fc5310cff80624a91202a, findElement {value=//textarea[@id='currentAddress'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.119, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\himan\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53413}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53413/devtoo..., se:cdpVersion: 124.0.6367.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 07c1aea98c2fc5310cff80624a91202a
+[INFO ] 2024-05-07 19:09:02.380 [main] DemoQALogs - FAILED | Permanent Address text box is not Displayed or Enabled
+[ERROR] 2024-05-07 19:09:02.380 [main] DemoQALogs - ERROR | no such element: Unable to locate element: {"method":"xpath","selector":"//textarea[@id='permanentAddress']"}
+  (Session info: chrome=124.0.6367.119)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [07c1aea98c2fc5310cff80624a91202a, findElement {value=//textarea[@id='permanentAddress'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.119, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\himan\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53413}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53413/devtoo..., se:cdpVersion: 124.0.6367.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 07c1aea98c2fc5310cff80624a91202a | org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//textarea[@id='permanentAddress']"}
+  (Session info: chrome=124.0.6367.119)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [07c1aea98c2fc5310cff80624a91202a, findElement {value=//textarea[@id='permanentAddress'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.119, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\himan\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53413}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53413/devtoo..., se:cdpVersion: 124.0.6367.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 07c1aea98c2fc5310cff80624a91202a
+[INFO ] 2024-05-07 19:09:02.380 [main] DemoQALogs - PASSED | All Text Boxes are filled
+[INFO ] 2024-05-07 19:09:12.453 [main] DemoQALogs - FAILED | Submit button is not Displayed or Enabled
+[ERROR] 2024-05-07 19:09:12.453 [main] DemoQALogs - ERROR | no such element: Unable to locate element: {"method":"xpath","selector":"//button[@id='submit']"}
+  (Session info: chrome=124.0.6367.119)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [07c1aea98c2fc5310cff80624a91202a, findElement {value=//button[@id='submit'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.119, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\himan\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53413}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53413/devtoo..., se:cdpVersion: 124.0.6367.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 07c1aea98c2fc5310cff80624a91202a | org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@id='submit']"}
+  (Session info: chrome=124.0.6367.119)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [07c1aea98c2fc5310cff80624a91202a, findElement {value=//button[@id='submit'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.119, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\himan\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53413}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53413/devtoo..., se:cdpVersion: 124.0.6367.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 07c1aea98c2fc5310cff80624a91202a
+[INFO ] 2024-05-07 19:09:12.453 [main] DemoQALogs - PASSED | Submit Button is clicked
+[INFO ] 2024-05-07 19:09:12.812 [main] DemoQALogs - PASSED | Chrome Browser is Closed
+[INFO ] 2024-05-07 19:09:14.158 [main] DemoQALogs - PASSED | Chrome Driver is Launched
+[INFO ] 2024-05-07 19:10:09.389 [main] DemoQALogs - PASSED | URL is loaded
+[INFO ] 2024-05-07 19:10:09.404 [main] DemoQALogs - PASSED | Home Page title is validated
+[INFO ] 2024-05-07 19:10:09.618 [main] DemoQALogs - PASSED | Elements tile is clicked
+[INFO ] 2024-05-07 19:10:09.771 [main] DemoQALogs - PASSED | Webtable Button is successfully Validated
+[INFO ] 2024-05-07 19:10:10.544 [main] DemoQALogs - PASSED | First Name header validated
+[INFO ] 2024-05-07 19:10:10.544 [main] DemoQALogs - PASSED | Last Name header validated
+[INFO ] 2024-05-07 19:10:10.544 [main] DemoQALogs - PASSED | Age header validated
+[INFO ] 2024-05-07 19:10:10.544 [main] DemoQALogs - PASSED | Email header validated
+[INFO ] 2024-05-07 19:10:10.545 [main] DemoQALogs - PASSED | Salary header validated
+[INFO ] 2024-05-07 19:10:10.545 [main] DemoQALogs - PASSED | Department header validated
+[INFO ] 2024-05-07 19:10:10.545 [main] DemoQALogs - PASSED | Action header validated
+[INFO ] 2024-05-07 19:10:10.545 [main] DemoQALogs - PASSED | Headers of all the Column of Webtable are Validated
+[INFO ] 2024-05-07 19:10:12.707 [main] DemoQALogs - PASSED | Row-2 is Updated in the table
+[INFO ] 2024-05-07 19:10:12.953 [main] DemoQALogs - PASSED | First Name validated
+[INFO ] 2024-05-07 19:10:12.953 [main] DemoQALogs - PASSED | Last Name validated
+[INFO ] 2024-05-07 19:10:12.953 [main] DemoQALogs - PASSED | Age validated
+[INFO ] 2024-05-07 19:10:12.953 [main] DemoQALogs - PASSED | Email validated
+[INFO ] 2024-05-07 19:10:12.953 [main] DemoQALogs - PASSED | Salary validated
+[INFO ] 2024-05-07 19:10:12.953 [main] DemoQALogs - PASSED | Department validated
+[INFO ] 2024-05-07 19:10:12.953 [main] DemoQALogs - PASSED | Updated data of Row-2 of Webtable is Validated
+[INFO ] 2024-05-07 19:10:13.067 [main] DemoQALogs - PASSED | Row2 Record is deleted
+[INFO ] 2024-05-07 19:10:14.286 [main] DemoQALogs - PASSED | New Record is added in the table
+[INFO ] 2024-05-07 19:10:15.054 [main] DemoQALogs - PASSED | Newly Added Data on Webtable is Validated
+[INFO ] 2024-05-07 19:10:15.429 [main] DemoQALogs - PASSED | Chrome Browser is Closed

@@ -14,7 +14,7 @@ public class CheckBoxPage extends BaseClass {
 	public CheckBoxPage(WebDriver rdriver){
 		ldriver=rdriver;
 		PageFactory.initElements(ldriver, this);
-		
+
 		js = (JavascriptExecutor) ldriver;
 	}
 
@@ -57,6 +57,7 @@ public class CheckBoxPage extends BaseClass {
 
 	// Click on Checkbox button on left rail
 	public void clickCheckBoxButton() {
+
 		try {
 			if(checkboxButton.isDisplayed() && checkboxButton.isEnabled()) {
 				try {
@@ -72,10 +73,12 @@ public class CheckBoxPage extends BaseClass {
 			log.info("FAILED | Check Box button is not Displayed or Enabled");
 			log.error("ERROR | " + e.getMessage() + " | " + e);
 		}
+
 	}
 
 	// Select Notes Checkbox
 	public void selectNotesCheckBox() {
+
 		try {
 			js.executeScript("arguments[0].scrollIntoView()", homeCaret);
 
@@ -114,11 +117,11 @@ public class CheckBoxPage extends BaseClass {
 				}
 			}
 		}
-
 		catch (Exception e) {
 			log.info("FAILED | Notes Checkbox is not Interactable");
 			log.error("ERROR | " + e.getMessage() + " | " + e);
 		}
+
 	}
 
 	// Select React Checkbox
@@ -169,7 +172,7 @@ public class CheckBoxPage extends BaseClass {
 		}
 
 	}
-	
+
 	// Select Excel File Checkbox
 	public void selectExcelFilesCheckBox() {
 
@@ -216,7 +219,7 @@ public class CheckBoxPage extends BaseClass {
 		actSelectedValues[0] = "";
 		actSelectedValues[1] = "";
 		actSelectedValues[2] = "";
-		
+
 		try {
 			actSelectedValues[0] = notesSelectionOutput.getText();
 		}
@@ -224,7 +227,7 @@ public class CheckBoxPage extends BaseClass {
 			log.info("FAILED | Unable to fetch Output of Notes checkbox Selection");
 			log.error("ERROR | " + e.getMessage() + " | " + e);
 		}
-		
+
 		try {
 			actSelectedValues[1] = reactSelectionOutput.getText();
 		}
@@ -232,7 +235,7 @@ public class CheckBoxPage extends BaseClass {
 			log.info("FAILED | Unable to fetch Output of React checkbox Selection");
 			log.error("ERROR | " + e.getMessage() + " | " + e);
 		}
-		
+
 		try {
 			actSelectedValues[2] = excelfileSelectionOutput.getText();
 		}
@@ -240,7 +243,7 @@ public class CheckBoxPage extends BaseClass {
 			log.info("FAILED | Unable to fetch Output of Excel Files checkbox Selection");
 			log.error("ERROR | " + e.getMessage() + " | " + e);
 		}
-		
+
 		return actSelectedValues;	
 	}
 

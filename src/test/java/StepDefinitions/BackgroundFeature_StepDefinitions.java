@@ -1,6 +1,9 @@
 package StepDefinitions;
 
+import java.time.Duration;
+
 import org.apache.logging.log4j.*;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
 import PageObjects.TestBackground;
@@ -12,6 +15,7 @@ public class BackgroundFeature_StepDefinitions extends BaseClass{
 	public BackgroundFeature_StepDefinitions() {
 		testBG = new TestBackground(ldriver);
 		log = LogManager.getLogger("DemoQALogs");
+		wait = new WebDriverWait(ldriver, Duration.ofSeconds(10));
 	}
 
 	@Given("User launched a Browser")

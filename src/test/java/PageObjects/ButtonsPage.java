@@ -6,6 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import Utilities.BaseClass;
 
@@ -43,6 +44,7 @@ public class ButtonsPage extends BaseClass{
 
 	// Click on Buttons button on left rail
 	public void clickButtonsButton() {
+		
 		js.executeScript("arguments[0].scrollIntoView()", buttonsButton);
 		
 		try {
@@ -65,6 +67,7 @@ public class ButtonsPage extends BaseClass{
 
 	// Click on Double Click Me button
 	public String verifyDoubleClickAction() {
+		
 		js.executeScript("arguments[0].scrollIntoView()", doubleClickMeButton);
 		
 		try {
@@ -86,6 +89,7 @@ public class ButtonsPage extends BaseClass{
 
 		String doubleClickMsg = "";
 		try {
+			wait.until(ExpectedConditions.visibilityOf(doubleClickMessage));
 			doubleClickMsg = doubleClickMessage.getText();
 		} catch (Exception e) {
 			log.info("FAILED | Unable to fetch Output of double click action on Double Click Me button");
@@ -98,6 +102,7 @@ public class ButtonsPage extends BaseClass{
 
 	// Click on Right Click Me button
 	public String verifyRightClickAction() {
+		
 		js.executeScript("arguments[0].scrollIntoView()", rightClickMeButton);
 		
 		try {
@@ -119,6 +124,7 @@ public class ButtonsPage extends BaseClass{
 
 		String rightClickMsg = "";
 		try {
+			wait.until(ExpectedConditions.visibilityOf(rightClickMeMessage));
 			rightClickMsg = rightClickMeMessage.getText();
 		} catch (Exception e) {
 			log.info("FAILED | Unable to fetch Output of right click action on Right Click Me button");
@@ -131,6 +137,7 @@ public class ButtonsPage extends BaseClass{
 
 	// Click on Click Me button
 	public String verifyClickAction() {
+		
 		js.executeScript("arguments[0].scrollIntoView()", clickMeButton);
 		
 		try {
@@ -151,6 +158,7 @@ public class ButtonsPage extends BaseClass{
 
 		String clickMsg = "";
 		try {
+			wait.until(ExpectedConditions.visibilityOf(clickMeMessage));
 			clickMsg = clickMeMessage.getText();
 		} catch (Exception e) {
 			log.info("FAILED | Unable to fetch Output of click action on Click Me button");

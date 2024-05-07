@@ -55,9 +55,9 @@ public class TestBackground extends BaseClass {
 	// Verify Home Page Title
 	public String verifyHomePageTitle() {
 
+		String homePageTitle="";
 		ldriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		
-		String homePageTitle="";
 		try {
 			homePageTitle = ldriver.getTitle();
 		}
@@ -65,6 +65,7 @@ public class TestBackground extends BaseClass {
 			log.info("FAILED | Unable to fetch title of Home Page");
 			log.error("ERROR | " + e.getMessage() + " | " + e);
 		}
+
 		return homePageTitle;
 	}
 
@@ -72,11 +73,10 @@ public class TestBackground extends BaseClass {
 	public void clickElementsTile() {
 
 		try {
+			js.executeScript("arguments[0].scrollIntoView()", elementsTile);
 			if(elementsTile.isDisplayed() && elementsTile.isEnabled()) {
 				try {
-					js.executeScript("arguments[0].scrollIntoView()", elementsTile);
 					elementsTile.click();
-
 				} 
 				catch (Exception e) {
 					log.info("FAILED | Elements Tile button click is intercepted");

@@ -14,7 +14,7 @@ public class TextBoxPage extends BaseClass{
 	public TextBoxPage(WebDriver rdriver) {
 		ldriver=rdriver;
 		PageFactory.initElements(ldriver, this);
-		
+
 		js = (JavascriptExecutor) ldriver;
 	}
 
@@ -127,12 +127,10 @@ public class TextBoxPage extends BaseClass{
 
 		try {
 			js.executeScript("arguments[0].scrollIntoView()", submitButton);
-			
+
 			if(submitButton.isDisplayed() && submitButton.isEnabled()) {
 				try {
-					js = (JavascriptExecutor) ldriver;
-					js.executeScript("arguments[0].scrollIntoView()", submitButton);
-					js.executeScript("arguments[0].click();", submitButton);
+					submitButton.click();
 				}
 				catch (Exception e) {
 					log.info("FAILED | Submit button click is intercepted");

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="143.475" tests="5" skipped="0" failures="0" errors="0">
-<testcase classname="Buttons_Element" name="Validate the Buttons component under Elements Tile" time="29.662">
+<testsuite name="Cucumber" time="371.004" tests="6" skipped="0" failures="0" errors="0">
+<testcase classname="Buttons_Element" name="Validate the Buttons component under Elements Tile" time="87.917">
 <system-out><![CDATA[
 Given User launched a Browser...............................................passed
 When User opens url "https://demoqa.com"....................................passed
@@ -13,7 +13,7 @@ And User perform click action on Click Me button and verify the Result "You have
 And User close the browser..................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="CheckBoxes_Element" name="Validate the CheckBoxes component under Elements Tile" time="28.486">
+<testcase classname="CheckBoxes_Element" name="Validate the CheckBoxes component under Elements Tile" time="60.594">
 <system-out><![CDATA[
 Given User launched a Browser...............................................passed
 When User opens url "https://demoqa.com"....................................passed
@@ -27,7 +27,24 @@ And User verifies selected values "notes" "react" "excelFile"...............pass
 And User close the browser..................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="RadioButtons_Element" name="Validate the Radio buttons component under Elements Tile" time="27.264">
+<testcase classname="Links_Element" name="Validate the Links component under Elements Tile" time="45.557">
+<system-out><![CDATA[
+Given User launched a Browser...............................................passed
+When User opens url "https://demoqa.com"....................................passed
+Then User verify title of landing Page "DEMOQA".............................passed
+When User cliks on Elements tab.............................................passed
+Then User clicks on Links button on left rail elements......................passed
+And User clicks on Created API call link and validate the Response Code "201" and Response Message "Created".passed
+And User clicks on No Content API call link and validate the Response Code "204" and Response Message "No Content".passed
+And User clicks on Moved API call link and validate the Response Code "301" and Response Message "Moved Permanently".passed
+And User clicks on Bad Request API call link and validate the Response Code "400" and Response Message "Bad Request".passed
+And User clicks on Unauthorized API call link and validate the Response Code "401" and Response Message "Unauthorized".passed
+And User clicks on Forbidden API call link and validate the Response Code "403" and Response Message "Forbidden".passed
+And User clicks on Not Found API call link and validate the Response Code "404" and Response Message "Not Found".passed
+And User close the browser..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="RadioButtons_Element" name="Validate the Radio buttons component under Elements Tile" time="22.044">
 <system-out><![CDATA[
 Given User launched a Browser...............................................passed
 When User opens url "https://demoqa.com"....................................passed
@@ -40,7 +57,7 @@ And User verifies the No radio button to be disabled........................pass
 And User close the browser..................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="TextBoxes_Element" name="Validate the TextBoxes component under Elements Tile" time="28.357">
+<testcase classname="TextBoxes_Element" name="Validate the TextBoxes component under Elements Tile" time="91.92">
 <system-out><![CDATA[
 Given User launched a Browser...............................................passed
 When User opens url "https://demoqa.com"....................................passed
@@ -52,7 +69,7 @@ And User clicks on Submit button............................................pass
 And User close the browser..................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="WebTables_Element" name="Validate the WebTables component under Elements Tile" time="29.236">
+<testcase classname="WebTables_Element" name="Validate the WebTables component under Elements Tile" time="62.601">
 <system-out><![CDATA[
 Given User launched a Browser...............................................passed
 When User opens url "https://demoqa.com"....................................passed
