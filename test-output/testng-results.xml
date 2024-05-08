@@ -1,123 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-07T19:04:03 IST" name="Default suite" finished-at="2024-05-07T19:10:15 IST" duration-ms="371823">
+  <suite started-at="2024-05-08T19:17:43 IST" name="Default suite" finished-at="2024-05-08T19:18:12 IST" duration-ms="28106">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.Runner@9ebe38b]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.Runner@602e0143]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2024-05-07T19:04:03 IST" name="Default test" finished-at="2024-05-07T19:10:15 IST" duration-ms="371823">
+    <test started-at="2024-05-08T19:17:43 IST" name="Default test" finished-at="2024-05-08T19:18:12 IST" duration-ms="28106">
       <class name="TestRunner.Runner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:TestRunner.Runner@9ebe38b]" started-at="2024-05-07T19:04:03 IST" name="setUpClass" finished-at="2024-05-07T19:04:04 IST" duration-ms="820" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:TestRunner.Runner@602e0143]" started-at="2024-05-08T19:17:43 IST" name="setUpClass" finished-at="2024-05-08T19:17:44 IST" duration-ms="765" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@be083e1]]>
+                <![CDATA[org.testng.TestRunner@5f8a02cf]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.Runner@9ebe38b]" started-at="2024-05-07T19:04:04 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-07T19:05:32 IST" duration-ms="88045" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.Runner@602e0143]" started-at="2024-05-08T19:17:44 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-08T19:18:11 IST" duration-ms="27187" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Validate the Buttons component under Elements Tile"]]>
+                <![CDATA["Validate the BrokenLinkImages component under Elements Tile"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Buttons_Element"]]>
+                <![CDATA["BrokenLinkImages_Element"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.Runner@9ebe38b]" started-at="2024-05-07T19:05:32 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-07T19:06:33 IST" duration-ms="60625" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Validate the CheckBoxes component under Elements Tile"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["CheckBoxes_Element"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.Runner@9ebe38b]" started-at="2024-05-07T19:06:33 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-07T19:07:18 IST" duration-ms="45574" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Validate the Links component under Elements Tile"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Links_Element"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.Runner@9ebe38b]" started-at="2024-05-07T19:07:18 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-07T19:07:40 IST" duration-ms="22060" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Validate the Radio buttons component under Elements Tile"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["RadioButtons_Element"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.Runner@9ebe38b]" started-at="2024-05-07T19:07:40 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-07T19:09:12 IST" duration-ms="91936" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Validate the TextBoxes component under Elements Tile"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["TextBoxes_Element"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.Runner@9ebe38b]" started-at="2024-05-07T19:09:12 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-07T19:10:15 IST" duration-ms="62617" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Validate the WebTables component under Elements Tile"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["WebTables_Element"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:TestRunner.Runner@9ebe38b]" started-at="2024-05-07T19:10:15 IST" name="tearDownClass" finished-at="2024-05-07T19:10:15 IST" duration-ms="94" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:TestRunner.Runner@602e0143]" started-at="2024-05-08T19:18:11 IST" name="tearDownClass" finished-at="2024-05-08T19:18:12 IST" duration-ms="78" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

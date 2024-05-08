@@ -1,87 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="371.004" tests="6" skipped="0" failures="0" errors="0">
-<testcase classname="Buttons_Element" name="Validate the Buttons component under Elements Tile" time="87.917">
+<testsuite name="Cucumber" time="27.328" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="BrokenLinkImages_Element" name="Validate the BrokenLinkImages component under Elements Tile" time="27.056">
 <system-out><![CDATA[
 Given User launched a Browser...............................................passed
 When User opens url "https://demoqa.com"....................................passed
 Then User verify title of landing Page "DEMOQA".............................passed
 When User cliks on Elements tab.............................................passed
-Then User clicks on Buttons button on left rail elements....................passed
-And User perform double click action on Double Click Me button and verify the Result "You have done a double click".passed
-And User perform right click action on Right Click Me button and verify the Result "You have done a right click".passed
-And User perform click action on Click Me button and verify the Result "You have done a dynamic click".passed
-And User close the browser..................................................passed
-]]></system-out>
-</testcase>
-<testcase classname="CheckBoxes_Element" name="Validate the CheckBoxes component under Elements Tile" time="60.594">
-<system-out><![CDATA[
-Given User launched a Browser...............................................passed
-When User opens url "https://demoqa.com"....................................passed
-Then User verify title of landing Page "DEMOQA".............................passed
-When User cliks on Elements tab.............................................passed
-Then User clicks on Check Box button on left rail elements..................passed
-And Select Notes Checkbox under Desktop.....................................passed
-And Select React Checkbox under WorkSpace under Documents...................passed
-And Select Excel File.doc Checkbox under Downloads..........................passed
-And User verifies selected values "notes" "react" "excelFile"...............passed
-And User close the browser..................................................passed
-]]></system-out>
-</testcase>
-<testcase classname="Links_Element" name="Validate the Links component under Elements Tile" time="45.557">
-<system-out><![CDATA[
-Given User launched a Browser...............................................passed
-When User opens url "https://demoqa.com"....................................passed
-Then User verify title of landing Page "DEMOQA".............................passed
-When User cliks on Elements tab.............................................passed
-Then User clicks on Links button on left rail elements......................passed
-And User clicks on Created API call link and validate the Response Code "201" and Response Message "Created".passed
-And User clicks on No Content API call link and validate the Response Code "204" and Response Message "No Content".passed
-And User clicks on Moved API call link and validate the Response Code "301" and Response Message "Moved Permanently".passed
-And User clicks on Bad Request API call link and validate the Response Code "400" and Response Message "Bad Request".passed
-And User clicks on Unauthorized API call link and validate the Response Code "401" and Response Message "Unauthorized".passed
-And User clicks on Forbidden API call link and validate the Response Code "403" and Response Message "Forbidden".passed
-And User clicks on Not Found API call link and validate the Response Code "404" and Response Message "Not Found".passed
-And User close the browser..................................................passed
-]]></system-out>
-</testcase>
-<testcase classname="RadioButtons_Element" name="Validate the Radio buttons component under Elements Tile" time="22.044">
-<system-out><![CDATA[
-Given User launched a Browser...............................................passed
-When User opens url "https://demoqa.com"....................................passed
-Then User verify title of landing Page "DEMOQA".............................passed
-When User cliks on Elements tab.............................................passed
-Then User clicks on Radio button on left rail elements......................passed
-And Select Yes radio button and verify the Selected value "Yes".............passed
-And Select Impressive radio button and verify the Selected value "Impressive".passed
-And User verifies the No radio button to be disabled........................passed
-And User close the browser..................................................passed
-]]></system-out>
-</testcase>
-<testcase classname="TextBoxes_Element" name="Validate the TextBoxes component under Elements Tile" time="91.92">
-<system-out><![CDATA[
-Given User launched a Browser...............................................passed
-When User opens url "https://demoqa.com"....................................passed
-Then User verify title of landing Page "DEMOQA".............................passed
-When User cliks on Elements tab.............................................passed
-Then User clicks on Text Box button on left rail elements...................passed
-And User enters all the values under the textboxes..........................passed
-And User clicks on Submit button............................................passed
-And User close the browser..................................................passed
-]]></system-out>
-</testcase>
-<testcase classname="WebTables_Element" name="Validate the WebTables component under Elements Tile" time="62.601">
-<system-out><![CDATA[
-Given User launched a Browser...............................................passed
-When User opens url "https://demoqa.com"....................................passed
-Then User verify title of landing Page "DEMOQA".............................passed
-When User cliks on Elements tab.............................................passed
-Then User clicks on Web Tables button on left rail elements.................passed
-And User verify the Column headers of webtable as "First Name" "Last Name" "Age" "Email" "Salary" "Department" "Action".passed
-And User edit the details on Row-II of table "Ellise" "Perry" "27" "ep@example.com" "1000000" "CCKTR".passed
-And User verify the updated details of Row-II  "Ellise" "Perry" "27" "ep@example.com" "1000000" "CCKTR".passed
-And User delete the record-II...............................................passed
-And User add a new record "Kittu" "Sharma" "25" "ks@example.com" "1" "Berozgar".passed
-And User verify the new record in table "Kittu" "Sharma" "25" "ks@example.com" "1" "Berozgar".passed
+Then User clicks on Broken Link Images button on left rail elements.........passed
+And User verifies the header of Broken Link Images page "Broken Links - Images".passed
+And User verify the valid image.............................................passed
+And User clicks on valid link and verify the response.......................passed
+And User clicks on broken link and verify the response......................passed
 And User close the browser..................................................passed
 ]]></system-out>
 </testcase>

@@ -6,6 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import PageObjects.BrokeLinkImagesPage;
 import PageObjects.ButtonsPage;
 import PageObjects.CheckBoxPage;
 import PageObjects.LinksPage;
@@ -29,4 +30,5 @@ public class BaseClass {
 	public WebTablePage webTablePage;
 	public ButtonsPage buttonsPage;
 	public LinksPage linksPage;
+	public BrokeLinkImagesPage brokenLinkImgPage;
 }

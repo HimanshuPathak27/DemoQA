@@ -201,3 +201,198 @@ Session ID: 07c1aea98c2fc5310cff80624a91202a
 [INFO ] 2024-05-07 19:10:14.286 [main] DemoQALogs - PASSED | New Record is added in the table
 [INFO ] 2024-05-07 19:10:15.054 [main] DemoQALogs - PASSED | Newly Added Data on Webtable is Validated
 [INFO ] 2024-05-07 19:10:15.429 [main] DemoQALogs - PASSED | Chrome Browser is Closed
+[INFO ] 2024-05-07 19:34:28.377 [main] DemoQALogs - PASSED | Chrome Driver is Launched
+[INFO ] 2024-05-07 19:35:23.599 [main] DemoQALogs - PASSED | URL is loaded
+[INFO ] 2024-05-07 19:35:23.634 [main] DemoQALogs - PASSED | Home Page title is validated
+[INFO ] 2024-05-07 19:35:24.021 [main] DemoQALogs - PASSED | Elements tile is clicked
+[INFO ] 2024-05-07 19:35:24.475 [main] DemoQALogs - PASSED | Buttons button is clicked Successfully
+[INFO ] 2024-05-07 19:35:45.393 [main] DemoQALogs - FAILED | Unable to fetch Output of double click action on Double Click Me button
+[ERROR] 2024-05-07 19:35:45.471 [main] DemoQALogs - ERROR | Cannot invoke "Object.getClass()" because "exceptionDriver" is null | java.lang.NullPointerException: Cannot invoke "Object.getClass()" because "exceptionDriver" is null
+[INFO ] 2024-05-07 19:35:47.889 [main] DemoQALogs - PASSED | Chrome Driver is Launched
+[INFO ] 2024-05-07 19:36:10.559 [main] DemoQALogs - PASSED | URL is loaded
+[INFO ] 2024-05-07 19:36:10.589 [main] DemoQALogs - PASSED | Home Page title is validated
+[INFO ] 2024-05-07 19:36:10.846 [main] DemoQALogs - PASSED | Elements tile is clicked
+[INFO ] 2024-05-07 19:36:10.989 [main] DemoQALogs - PASSED | Checkbox button is clicked
+[INFO ] 2024-05-07 19:36:11.353 [main] DemoQALogs - PASSED | Notes Checkbox is selected
+[INFO ] 2024-05-07 19:36:11.660 [main] DemoQALogs - PASSED | React Checkbox is selected
+[INFO ] 2024-05-07 19:36:11.870 [main] DemoQALogs - PASSED | Excel Files Checkbox is selected
+[INFO ] 2024-05-07 19:36:11.953 [main] DemoQALogs - PASSED | Output of selected checkboxes are validated
+[INFO ] 2024-05-07 19:36:12.729 [main] DemoQALogs - PASSED | Chrome Browser is Closed
+[INFO ] 2024-05-07 19:36:14.350 [main] DemoQALogs - PASSED | Chrome Driver is Launched
+[INFO ] 2024-05-07 19:37:13.878 [main] DemoQALogs - PASSED | URL is loaded
+[INFO ] 2024-05-07 19:37:13.895 [main] DemoQALogs - PASSED | Home Page title is validated
+[INFO ] 2024-05-07 19:37:14.127 [main] DemoQALogs - PASSED | Elements tile is clicked
+[INFO ] 2024-05-07 19:37:14.283 [main] DemoQALogs - PASSED | Links button is clicked Successfully
+[INFO ] 2024-05-07 19:37:14.516 [main] DemoQALogs - PASSED | Created Link clicked
+[INFO ] 2024-05-07 19:37:17.577 [main] DemoQALogs - PASSED | Responses validated for Created link
+[INFO ] 2024-05-07 19:37:20.807 [main] DemoQALogs - PASSED | Responses validated for No Content link
+[INFO ] 2024-05-07 19:37:23.961 [main] DemoQALogs - PASSED | Responses validated for Moved link
+[INFO ] 2024-05-07 19:37:27.178 [main] DemoQALogs - PASSED | Responses validated for Bad Request link
+[INFO ] 2024-05-07 19:37:30.427 [main] DemoQALogs - PASSED | Responses validated for Unauthorized link
+[INFO ] 2024-05-07 19:37:33.662 [main] DemoQALogs - PASSED | Responses validated for Forbidden link
+[INFO ] 2024-05-07 19:37:36.893 [main] DemoQALogs - PASSED | Responses validated for Unauthorized link
+[INFO ] 2024-05-07 19:37:37.522 [main] DemoQALogs - PASSED | Chrome Browser is Closed
+[INFO ] 2024-05-07 19:37:39.736 [main] DemoQALogs - PASSED | Chrome Driver is Launched
+[INFO ] 2024-05-07 19:38:02.803 [main] DemoQALogs - PASSED | URL is loaded
+[INFO ] 2024-05-07 19:38:02.822 [main] DemoQALogs - PASSED | Home Page title is validated
+[INFO ] 2024-05-07 19:38:03.040 [main] DemoQALogs - PASSED | Elements tile is clicked
+[INFO ] 2024-05-07 19:38:03.199 [main] DemoQALogs - PASSED | Radio Button button Clicked
+[INFO ] 2024-05-07 19:38:03.499 [main] DemoQALogs - PASSED | YES Radio Button button is validated
+[INFO ] 2024-05-07 19:38:03.710 [main] DemoQALogs - PASSED | IMPRESSIVE Radio Button button is validated
+[INFO ] 2024-05-07 19:38:03.743 [main] DemoQALogs - PASSED | NO Radio Button button is validated
+[INFO ] 2024-05-07 19:38:03.966 [main] DemoQALogs - PASSED | Chrome Browser is Closed
+[INFO ] 2024-05-07 19:38:05.196 [main] DemoQALogs - PASSED | Chrome Driver is Launched
+[INFO ] 2024-05-07 19:39:08.493 [main] DemoQALogs - PASSED | URL is loaded
+[INFO ] 2024-05-07 19:39:08.506 [main] DemoQALogs - PASSED | Home Page title is validated
+[INFO ] 2024-05-07 19:39:08.722 [main] DemoQALogs - PASSED | Elements tile is clicked
+[INFO ] 2024-05-07 19:39:08.860 [main] DemoQALogs - PASSED | Text Box button is clicked
+[INFO ] 2024-05-07 19:39:10.680 [main] DemoQALogs - PASSED | All Text Boxes are filled
+[INFO ] 2024-05-07 19:39:10.823 [main] DemoQALogs - PASSED | Submit Button is clicked
+[INFO ] 2024-05-07 19:39:11.078 [main] DemoQALogs - PASSED | Chrome Browser is Closed
+[INFO ] 2024-05-07 19:39:12.346 [main] DemoQALogs - PASSED | Chrome Driver is Launched
+[INFO ] 2024-05-07 19:40:16.487 [main] DemoQALogs - PASSED | URL is loaded
+[INFO ] 2024-05-07 19:40:16.500 [main] DemoQALogs - PASSED | Home Page title is validated
+[INFO ] 2024-05-07 19:40:16.710 [main] DemoQALogs - PASSED | Elements tile is clicked
+[INFO ] 2024-05-07 19:40:16.883 [main] DemoQALogs - PASSED | Webtable Button is successfully Validated
+[INFO ] 2024-05-07 19:40:17.236 [main] DemoQALogs - PASSED | First Name header validated
+[INFO ] 2024-05-07 19:40:17.236 [main] DemoQALogs - PASSED | Last Name header validated
+[INFO ] 2024-05-07 19:40:17.236 [main] DemoQALogs - PASSED | Age header validated
+[INFO ] 2024-05-07 19:40:17.236 [main] DemoQALogs - PASSED | Email header validated
+[INFO ] 2024-05-07 19:40:17.236 [main] DemoQALogs - PASSED | Salary header validated
+[INFO ] 2024-05-07 19:40:17.236 [main] DemoQALogs - PASSED | Department header validated
+[INFO ] 2024-05-07 19:40:17.236 [main] DemoQALogs - PASSED | Action header validated
+[INFO ] 2024-05-07 19:40:17.236 [main] DemoQALogs - PASSED | Headers of all the Column of Webtable are Validated
+[INFO ] 2024-05-07 19:40:19.752 [main] DemoQALogs - PASSED | Row-2 is Updated in the table
+[INFO ] 2024-05-07 19:40:20.076 [main] DemoQALogs - PASSED | First Name validated
+[INFO ] 2024-05-07 19:40:20.076 [main] DemoQALogs - PASSED | Last Name validated
+[INFO ] 2024-05-07 19:40:20.076 [main] DemoQALogs - PASSED | Age validated
+[INFO ] 2024-05-07 19:40:20.076 [main] DemoQALogs - PASSED | Email validated
+[INFO ] 2024-05-07 19:40:20.076 [main] DemoQALogs - PASSED | Salary validated
+[INFO ] 2024-05-07 19:40:20.076 [main] DemoQALogs - PASSED | Department validated
+[INFO ] 2024-05-07 19:40:20.076 [main] DemoQALogs - PASSED | Updated data of Row-2 of Webtable is Validated
+[INFO ] 2024-05-07 19:40:20.199 [main] DemoQALogs - PASSED | Row2 Record is deleted
+[INFO ] 2024-05-07 19:40:21.365 [main] DemoQALogs - PASSED | New Record is added in the table
+[INFO ] 2024-05-07 19:40:22.092 [main] DemoQALogs - PASSED | Newly Added Data on Webtable is Validated
+[INFO ] 2024-05-07 19:40:22.358 [main] DemoQALogs - PASSED | Chrome Browser is Closed
+[INFO ] 2024-05-07 20:27:55.774 [main] DemoQALogs - PASSED | Chrome Driver is Launched
+[INFO ] 2024-05-07 20:28:53.156 [main] DemoQALogs - PASSED | URL is loaded
+[INFO ] 2024-05-07 20:28:53.178 [main] DemoQALogs - PASSED | Home Page title is validated
+[INFO ] 2024-05-07 20:28:53.533 [main] DemoQALogs - PASSED | Elements tile is clicked
+[INFO ] 2024-05-07 20:28:54.051 [main] DemoQALogs - PASSED | Text Box button is clicked
+[INFO ] 2024-05-07 20:28:54.177 [main] DemoQALogs - PASSED | Textboxes Page Header is validated
+[INFO ] 2024-05-07 20:29:33.906 [main] DemoQALogs - PASSED | Chrome Driver is Launched
+[INFO ] 2024-05-07 20:29:38.561 [main] DemoQALogs - PASSED | URL is loaded
+[INFO ] 2024-05-07 20:30:15.277 [main] DemoQALogs - PASSED | Chrome Driver is Launched
+[INFO ] 2024-05-07 20:30:37.015 [main] DemoQALogs - PASSED | URL is loaded
+[INFO ] 2024-05-07 20:30:37.026 [main] DemoQALogs - PASSED | Home Page title is validated
+[INFO ] 2024-05-07 20:30:37.266 [main] DemoQALogs - PASSED | Elements tile is clicked
+[INFO ] 2024-05-07 20:30:37.412 [main] DemoQALogs - PASSED | Text Box button is clicked
+[INFO ] 2024-05-07 20:30:37.491 [main] DemoQALogs - PASSED | Textboxes Page Header is validated
+[INFO ] 2024-05-07 20:30:37.754 [main] DemoQALogs - PASSED | Inner text of all Textboxes is validated
+[INFO ] 2024-05-07 20:30:38.746 [main] DemoQALogs - PASSED | All Text Boxes are filled
+[INFO ] 2024-05-07 20:30:38.949 [main] DemoQALogs - PASSED | Submit Button is clicked
+[INFO ] 2024-05-07 20:30:39.343 [main] DemoQALogs - PASSED | Chrome Browser is Closed
+[INFO ] 2024-05-07 20:31:12.305 [main] DemoQALogs - PASSED | Chrome Driver is Launched
+[INFO ] 2024-05-07 20:31:33.895 [main] DemoQALogs - PASSED | URL is loaded
+[INFO ] 2024-05-07 20:31:33.904 [main] DemoQALogs - PASSED | Home Page title is validated
+[INFO ] 2024-05-07 20:31:34.146 [main] DemoQALogs - PASSED | Elements tile is clicked
+[INFO ] 2024-05-07 20:31:34.292 [main] DemoQALogs - PASSED | Text Box button is clicked
+[INFO ] 2024-05-07 20:31:34.435 [main] DemoQALogs - PASSED | Textboxes Page Header is validated
+[INFO ] 2024-05-07 20:31:34.952 [main] DemoQALogs - PASSED | Inner text of all Textboxes is validated
+[INFO ] 2024-05-07 20:31:36.357 [main] DemoQALogs - PASSED | All Text Boxes are filled
+[INFO ] 2024-05-07 20:31:36.543 [main] DemoQALogs - PASSED | Submit Button is clicked
+[INFO ] 2024-05-07 20:31:37.051 [main] DemoQALogs - PASSED | Chrome Browser is Closed
+[INFO ] 2024-05-08 08:26:46.546 [main] DemoQALogs - PASSED | Chrome Driver is Launched
+[INFO ] 2024-05-08 08:27:45.664 [main] DemoQALogs - PASSED | URL is loaded
+[INFO ] 2024-05-08 08:27:45.685 [main] DemoQALogs - PASSED | Home Page title is validated
+[INFO ] 2024-05-08 08:27:45.997 [main] DemoQALogs - PASSED | Elements tile is clicked
+[INFO ] 2024-05-08 08:27:46.380 [main] DemoQALogs - PASSED | Broken Link Images button is clicked
+[INFO ] 2024-05-08 08:27:46.464 [main] DemoQALogs - PASSED | Broken Link Images Page Header is validated
+[INFO ] 2024-05-08 08:27:47.763 [main] DemoQALogs - PASSED | Image is valid
+[INFO ] 2024-05-08 08:27:51.357 [main] DemoQALogs - PASSED | Chrome Browser is Closed
+[INFO ] 2024-05-08 08:31:02.807 [main] DemoQALogs - PASSED | Chrome Driver is Launched
+[INFO ] 2024-05-08 08:31:58.789 [main] DemoQALogs - PASSED | URL is loaded
+[INFO ] 2024-05-08 08:31:58.802 [main] DemoQALogs - PASSED | Home Page title is validated
+[INFO ] 2024-05-08 08:31:59.054 [main] DemoQALogs - PASSED | Elements tile is clicked
+[INFO ] 2024-05-08 08:31:59.236 [main] DemoQALogs - PASSED | Broken Link Images button is clicked
+[INFO ] 2024-05-08 08:31:59.299 [main] DemoQALogs - PASSED | Broken Link Images Page Header is validated
+[INFO ] 2024-05-08 08:32:00.390 [main] DemoQALogs - PASSED | Image is valid
+[INFO ] 2024-05-08 08:36:29.691 [main] DemoQALogs - PASSED | Chrome Driver is Launched
+[INFO ] 2024-05-08 08:36:34.389 [main] DemoQALogs - PASSED | URL is loaded
+[INFO ] 2024-05-08 08:37:04.128 [main] DemoQALogs - PASSED | Chrome Driver is Launched
+[INFO ] 2024-05-08 08:37:24.169 [main] DemoQALogs - PASSED | URL is loaded
+[INFO ] 2024-05-08 08:37:24.208 [main] DemoQALogs - PASSED | Home Page title is validated
+[INFO ] 2024-05-08 08:37:24.427 [main] DemoQALogs - PASSED | Elements tile is clicked
+[INFO ] 2024-05-08 08:37:24.593 [main] DemoQALogs - PASSED | Broken Link Images button is clicked
+[INFO ] 2024-05-08 08:37:24.672 [main] DemoQALogs - PASSED | Broken Link Images Page Header is validated
+[INFO ] 2024-05-08 08:37:25.478 [main] DemoQALogs - PASSED | Image is valid
+[INFO ] 2024-05-08 08:37:25.680 [main] DemoQALogs - PASSED | Image is Broken
+[INFO ] 2024-05-08 08:37:26.101 [main] DemoQALogs - PASSED | Chrome Browser is Closed
+[INFO ] 2024-05-08 18:16:24.377 [main] DemoQALogs - PASSED | Chrome Driver is Launched
+[INFO ] 2024-05-08 18:17:37.850 [main] DemoQALogs - PASSED | URL is loaded
+[INFO ] 2024-05-08 18:17:37.871 [main] DemoQALogs - PASSED | Home Page title is validated
+[INFO ] 2024-05-08 18:17:38.273 [main] DemoQALogs - PASSED | Elements tile is clicked
+[INFO ] 2024-05-08 18:17:38.491 [main] DemoQALogs - PASSED | Broken Link Images button is clicked
+[INFO ] 2024-05-08 18:17:38.588 [main] DemoQALogs - PASSED | Broken Link Images Page Header is validated
+[INFO ] 2024-05-08 18:17:39.726 [main] DemoQALogs - PASSED | Image is valid
+[INFO ] 2024-05-08 18:40:35.986 [main] DemoQALogs - PASSED | Chrome Driver is Launched
+[INFO ] 2024-05-08 18:41:40.385 [main] DemoQALogs - PASSED | URL is loaded
+[INFO ] 2024-05-08 18:41:40.402 [main] DemoQALogs - PASSED | Home Page title is validated
+[INFO ] 2024-05-08 18:41:40.793 [main] DemoQALogs - PASSED | Elements tile is clicked
+[INFO ] 2024-05-08 18:41:41.126 [main] DemoQALogs - PASSED | Broken Link Images button is clicked
+[INFO ] 2024-05-08 18:41:41.235 [main] DemoQALogs - PASSED | Broken Link Images Page Header is validated
+[INFO ] 2024-05-08 18:41:42.357 [main] DemoQALogs - PASSED | Image is valid
+[INFO ] 2024-05-08 18:44:57.605 [main] DemoQALogs - PASSED | Chrome Driver is Launched
+[INFO ] 2024-05-08 18:45:19.408 [main] DemoQALogs - PASSED | URL is loaded
+[INFO ] 2024-05-08 18:45:19.425 [main] DemoQALogs - PASSED | Home Page title is validated
+[INFO ] 2024-05-08 18:45:19.655 [main] DemoQALogs - PASSED | Elements tile is clicked
+[INFO ] 2024-05-08 18:45:19.830 [main] DemoQALogs - PASSED | Broken Link Images button is clicked
+[INFO ] 2024-05-08 18:45:19.960 [main] DemoQALogs - PASSED | Broken Link Images Page Header is validated
+[INFO ] 2024-05-08 18:45:20.933 [main] DemoQALogs - PASSED | Image is valid
+[INFO ] 2024-05-08 18:48:34.879 [main] DemoQALogs - PASSED | Chrome Driver is Launched
+[INFO ] 2024-05-08 18:48:55.413 [main] DemoQALogs - PASSED | URL is loaded
+[INFO ] 2024-05-08 18:48:55.448 [main] DemoQALogs - PASSED | Home Page title is validated
+[INFO ] 2024-05-08 18:48:55.947 [main] DemoQALogs - PASSED | Elements tile is clicked
+[INFO ] 2024-05-08 18:48:56.257 [main] DemoQALogs - PASSED | Broken Link Images button is clicked
+[INFO ] 2024-05-08 18:48:56.347 [main] DemoQALogs - PASSED | Broken Link Images Page Header is validated
+[INFO ] 2024-05-08 18:48:57.149 [main] DemoQALogs - PASSED | Image is valid
+[INFO ] 2024-05-08 18:50:02.376 [main] DemoQALogs - PASSED | Chrome Driver is Launched
+[INFO ] 2024-05-08 18:50:24.025 [main] DemoQALogs - PASSED | URL is loaded
+[INFO ] 2024-05-08 18:50:24.043 [main] DemoQALogs - PASSED | Home Page title is validated
+[INFO ] 2024-05-08 18:50:24.285 [main] DemoQALogs - PASSED | Elements tile is clicked
+[INFO ] 2024-05-08 18:50:24.434 [main] DemoQALogs - PASSED | Broken Link Images button is clicked
+[INFO ] 2024-05-08 18:50:24.492 [main] DemoQALogs - PASSED | Broken Link Images Page Header is validated
+[INFO ] 2024-05-08 18:50:25.505 [main] DemoQALogs - PASSED | Image is valid
+[INFO ] 2024-05-08 19:00:37.797 [main] DemoQALogs - PASSED | Chrome Driver is Launched
+[INFO ] 2024-05-08 19:00:58.759 [main] DemoQALogs - PASSED | URL is loaded
+[INFO ] 2024-05-08 19:00:58.806 [main] DemoQALogs - PASSED | Home Page title is validated
+[INFO ] 2024-05-08 19:00:59.131 [main] DemoQALogs - PASSED | Elements tile is clicked
+[INFO ] 2024-05-08 19:00:59.534 [main] DemoQALogs - PASSED | Broken Link Images button is clicked
+[INFO ] 2024-05-08 19:01:00.148 [main] DemoQALogs - PASSED | Broken Link Images Page Header is validated
+[INFO ] 2024-05-08 19:01:01.222 [main] DemoQALogs - PASSED | Image is valid
+[INFO ] 2024-05-08 19:03:07.481 [main] DemoQALogs - PASSED | Chrome Driver is Launched
+[INFO ] 2024-05-08 19:03:28.656 [main] DemoQALogs - PASSED | URL is loaded
+[INFO ] 2024-05-08 19:03:28.689 [main] DemoQALogs - PASSED | Home Page title is validated
+[INFO ] 2024-05-08 19:03:28.915 [main] DemoQALogs - PASSED | Elements tile is clicked
+[INFO ] 2024-05-08 19:03:29.167 [main] DemoQALogs - PASSED | Broken Link Images button is clicked
+[INFO ] 2024-05-08 19:03:29.320 [main] DemoQALogs - PASSED | Broken Link Images Page Header is validated
+[INFO ] 2024-05-08 19:03:30.154 [main] DemoQALogs - PASSED | Image is valid
+[INFO ] 2024-05-08 19:03:30.522 [main] DemoQALogs - 200
+[INFO ] 2024-05-08 19:03:30.522 [main] DemoQALogs - (347, 100)
+[INFO ] 2024-05-08 19:16:06.289 [main] DemoQALogs - PASSED | Chrome Driver is Launched
+[INFO ] 2024-05-08 19:16:10.187 [main] DemoQALogs - PASSED | URL is loaded
+[INFO ] 2024-05-08 19:16:38.976 [main] DemoQALogs - PASSED | Home Page title is validated
+[INFO ] 2024-05-08 19:16:39.259 [main] DemoQALogs - PASSED | Elements tile is clicked
+[INFO ] 2024-05-08 19:16:39.430 [main] DemoQALogs - PASSED | Broken Link Images button is clicked
+[INFO ] 2024-05-08 19:16:39.549 [main] DemoQALogs - PASSED | Broken Link Images Page Header is validated
+[INFO ] 2024-05-08 19:16:40.623 [main] DemoQALogs - PASSED | Image is valid
+[INFO ] 2024-05-08 19:17:48.829 [main] DemoQALogs - PASSED | Chrome Driver is Launched
+[INFO ] 2024-05-08 19:18:09.356 [main] DemoQALogs - PASSED | URL is loaded
+[INFO ] 2024-05-08 19:18:09.376 [main] DemoQALogs - PASSED | Home Page title is validated
+[INFO ] 2024-05-08 19:18:09.597 [main] DemoQALogs - PASSED | Elements tile is clicked
+[INFO ] 2024-05-08 19:18:09.867 [main] DemoQALogs - PASSED | Broken Link Images button is clicked
+[INFO ] 2024-05-08 19:18:09.995 [main] DemoQALogs - PASSED | Broken Link Images Page Header is validated
+[INFO ] 2024-05-08 19:18:10.898 [main] DemoQALogs - PASSED | Image is valid
+[INFO ] 2024-05-08 19:18:11.177 [main] DemoQALogs - PASSED | Link is valid
+[INFO ] 2024-05-08 19:18:11.302 [main] DemoQALogs - PASSED | Link is Broken
+[INFO ] 2024-05-08 19:18:11.896 [main] DemoQALogs - PASSED | Chrome Browser is Closed

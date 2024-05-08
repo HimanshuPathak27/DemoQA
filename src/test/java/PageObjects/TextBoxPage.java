@@ -21,6 +21,9 @@ public class TextBoxPage extends BaseClass{
 	//Locating Elements
 	@FindBy(xpath = "//span[text()='Text Box']/..")
 	WebElement textBoxButton;
+	
+	@FindBy(xpath="//h1")
+	WebElement pageHeader;
 
 	@FindBy(xpath = "//input[@id='userName']")
 	WebElement fullNameTextbox;
@@ -57,7 +60,59 @@ public class TextBoxPage extends BaseClass{
 		}
 
 	}
+	
+	//Validate header of TextBox page
+	public String verifyPageHeader() {
 
+		String actPageHeader = "";
+		
+		try {
+			if(pageHeader.isDisplayed()) {
+				actPageHeader = pageHeader.getText();
+			}
+		} 
+		catch (Exception  e) {
+			log.info("FAILED | Page Header is not Displayed");
+			log.error("ERROR | " + e.getMessage() + " | " + e);
+		}
+		
+		return actPageHeader;
+
+	}
+
+	//Validate inner text on textboxes of TextBox page
+	public String[] verifyTextboxesInnerText() {
+
+		String[] innerText = new String[4];
+		
+		innerText[0] = "";
+		innerText[1] = "";
+		innerText[2] = "";
+		innerText[3] = "";
+		
+		try {
+			if(fullNameTextbox.isDisplayed() && fullNameTextbox.isEnabled()) {
+				innerText[0] = fullNameTextbox.getAttribute("placeholder");
+			}
+			if(emailTextbox.isDisplayed() && emailTextbox.isEnabled()) {
+				innerText[1] = emailTextbox.getAttribute("placeholder");
+			}
+			if(currentAddressTextBox.isDisplayed() && currentAddressTextBox.isEnabled()) {
+				innerText[2] = currentAddressTextBox.getAttribute("placeholder");
+			}
+			if(permanentAddressTextBox.isDisplayed() && permanentAddressTextBox.isEnabled()) {
+				innerText[3] = permanentAddressTextBox.getAttribute("placeholder");
+			}
+		} 
+		catch (Exception  e) {
+			log.info("FAILED | Unable to fetch Inner text");
+			log.error("ERROR | " + e.getMessage() + " | " + e);
+		}
+		
+		return innerText;
+
+	}
+	
 	// Enter Full Name in textbox
 	public void enterFullName(String fullName) {
 
